@@ -18,7 +18,7 @@ mailchimp_input_name: "b_307862c135e4548eecf86f389_342411fb35"
 permalink: "/:title"
 
 #Remove line below when moving to a custom domain with no subdomain
-baseurl: "https://azimuth1.github.io/azimuth1-new-website/"
+baseurl: "https://azimuth1.github.io/azimuth1-new-website"
 
 # Build settings
 markdown: kramdown

@@ -2,7 +2,8 @@ title: "Azimuth1 -  Geospatial Analytics | See your world more clearly"
 email: "contact@azimuth1.com"
 description: >- # this means to ignore newlines until "baseurl:"
  Trade - Multipurpose Business & Corporate Jekyll Template Jekyll Theme For Mobile Apps Download Landing Page And Blogging.
-baseurl: "" # the subpath of your site, e.g. /blog
+#baseurl: ""
+baseurl: "azimuth1-new-website" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
 facebook_url: https://www.facebook.com/Azimuth1Tech
 twitter_url: https://twitter.com/Azimuth1Tech
@@ -17,8 +18,6 @@ mailchimp_input_name: "b_307862c135e4548eecf86f389_342411fb35"
 
 permalink: "/:title"
 
-#Remove line below when moving to a custom domain with no subdomain
-baseurl: "https://azimuth1.github.io/azimuth1-new-website"
 
 # Build settings
 markdown: kramdown

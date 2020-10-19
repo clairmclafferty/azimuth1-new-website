@@ -4,12 +4,12 @@ description: >- # this means to ignore newlines until "baseurl:"
  Trade - Multipurpose Business & Corporate Jekyll Template Jekyll Theme For Mobile Apps Download Landing Page And Blogging.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
-facebook_url: https://www.facebook.com/jekyll
-twitter_url: https://twitter.com/tryghost
+facebook_url: https://www.facebook.com/Azimuth1Tech
+twitter_url: https://twitter.com/Azimuth1Tech
 github_url:  https://github.com/TryGhost/Ghost
-pinterest_url: https://www.pinterest.com/rubel8525
-linkedin_url: https://www.linkenin.com/rubel8525
-instagram_url: https://www.instagram.com/rubel8525
+pinterest_url: https://www.pinterest.com/
+linkedin_url: https://www.linkedin.com/company/azimuth1/
+instagram_url: https://www.instagram.com/azimuth1tech/
 logo: "/assets/img/logo/logo.png"
 logo_2: "/assets/img/logo/logo_2.png"
 mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
@@ -17,6 +17,8 @@ mailchimp_input_name: "b_307862c135e4548eecf86f389_342411fb35"
 
 permalink: "/:title"
 
+#Remove line below when moving to a custom domain with no subdomain
+baseurl: "https://azimuth1.github.io/azimuth1-new-website/"
 
 # Build settings
 markdown: kramdown

@@ -1,11 +1,11 @@
 #Please use the main menu items under the "text"
 
-- text: Solutions
+- text: Home
   url: /
   submenu:
-  - text: Environmental Remediation
+  - text: Home 2
     url: /pages/index-2
-  - text: Public Safety
+  - text: Home 3
     url: /pages/index-3
 - text: About
   url: /pages/about

@@ -1,11 +1,11 @@
 #Please use the main menu items under the "text"
 
-- text: Home
+- text: Solutions
   url: /
   submenu:
-  - text: Home 2
+  - text: Environmental Remediation
     url: /pages/index-2
-  - text: Home 3
+  - text: Public Safety
     url: /pages/index-3
 - text: About
   url: /pages/about
@@ -21,9 +21,9 @@
   - text: Service Details
     url: /pages/services-details
   - text: Portfolio
-    url: /pages/portfolio   
+    url: /pages/portfolio
   - text: Portfolio Details
-    url: /pages/portfolio-details 
+    url: /pages/portfolio-details
   - text: About Us
     url: /pages/about
   - text: Contact

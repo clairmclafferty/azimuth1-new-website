@@ -25,7 +25,6 @@
       url: /pages/team
     - text: Careers
       url: /pages/careers
-
 - text: Porfolio
   url: /pages/portfolio
   submenu:

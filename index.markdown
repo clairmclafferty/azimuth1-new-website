@@ -2,7 +2,6 @@
 layout: default
 ---
 
-{% include header.html %}
 <main>
     {% include slider.html %}
     {% include about.html %}

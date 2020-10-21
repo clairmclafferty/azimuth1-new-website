@@ -1892,6 +1892,7 @@ blockquote {
 }
 .single-clients {
 	text-align: center;
+	width:85%;
 }
 .owl-carousel .owl-item .single-clients  img {
 	display: inline-block;

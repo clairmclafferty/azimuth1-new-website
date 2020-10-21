@@ -1,34 +1,37 @@
 #Please use the main menu items under the "text"
 
-- text: Home
-  url: /
+- text: Industries
+  url: /industries
   submenu:
-  - text: Home 2
-    url: /pages/index-2
-  - text: Home 3
-    url: /pages/index-3
-- text: About
-  url: /pages/about
+  - text: Environmental
+    url: /pages/environmental
+  - text: Public Safety
+    url: /pages/pubsafety
+  - text: National Security
+    url: /pages/natsec
+- text: Products
+  url: /products
+  submenu:
+    - text: EnviMetric
+      url: /pages/envimetric
+    - text: QuickRoute
+- text: Company
+  url: /pages/company
+  submenu:
+    - text: About
+      url: /pages/about
+    - text: Our Team
+      url: /pages/team
+    - text: Careers
+      url: /pages/careers
 - text: Blog
   url: /pages/blog
 - text: Services
   url: /pages/services
-- text: Pages
-  url: /
+- text: Porfolio
+  url: /pages/portfolio
   submenu:
-  - text: Services
-    url: /pages/services
-  - text: Service Details
-    url: /pages/services-details
-  - text: Portfolio
-    url: /pages/portfolio
-  - text: Portfolio Details
-    url: /pages/portfolio-details
-  - text: About Us
-    url: /pages/about
-  - text: Contact
-    url: /pages/contact
-  - text: 404
-    url: /pages/404
+      - text: Portfolio Details
+        url: /pages/portfolio-details
 - text: Contact
   url: /pages/contact

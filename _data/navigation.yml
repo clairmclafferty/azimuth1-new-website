@@ -3,22 +3,19 @@
 - text: Solutions
   url: /solutions
   submenu:
-    - text: Industries
-      url: /pages/industries
-      submenu:
-        - text: Environmental
-          url: /pages/environmental
-        - text: Public Safety
-          url: /pages/pubsafety
-        - text: National Security
-          url: /pages/natsec
-    - text: Products
-      url: /products
-      submenu:
-        - text: EnviMetric
-          url: /pages/envimetric
-        - text: QuickRoute
-          url: /pages/quickroute
+    - text: Environmental
+      url: /pages/environmental
+    - text: Public Safety
+      url: /pages/pubsafety
+    - text: National Security
+      url: /pages/natsec
+- text: Products
+  url: /products
+  submenu:
+    - text: EnviMetric
+      url: /pages/envimetric
+    - text: QuickRoute
+      url: /pages/quickroute
 - text: Company
   url: /pages/company
   submenu:

@@ -24,14 +24,13 @@
       url: /pages/team
     - text: Careers
       url: /pages/careers
-- text: Blog
-  url: /pages/blog
-- text: Services
-  url: /pages/services
+
 - text: Porfolio
   url: /pages/portfolio
   submenu:
       - text: Portfolio Details
         url: /pages/portfolio-details
+- text: Blog
+  url: /pages/blog
 - text: Contact
   url: /pages/contact

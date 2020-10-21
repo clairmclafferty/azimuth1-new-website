@@ -10,11 +10,11 @@ title: Blog
     <div class="container">
         <div class="row">
             <div class="col-lg-8 blog-post-items">
-              {% for post in paginator.posts %}
+              {% for post in site.posts %}
                 <div class="blog-wrapper mb-40">
                     <div class="blog-thumb">
                         <a href="{{post.url}}">
-                            <img class="img-fluid" src="{{post.post_image}}" alt="{{post.title}}"/>
+                            <img class="img-fluid" src="{{site.baseurl}}/{{post.folder}}/header.png" alt="{{post.title}}"/>
                         </a>
                     </div>
                     <div class="meta-info">

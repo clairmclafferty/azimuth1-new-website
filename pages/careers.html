@@ -8,7 +8,7 @@ title: About Us
         <div class="row">
             <div class="col-12 text-center">
                 <div class="about-info-text">
-                    <h2>We are Awesome people</h2>
+                    <h2>Working at Azimuth1</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi tempora veritatis nemo aut ea iusto eos est expedita,quas ab adipisci. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
                     <a href="#" class="btn">Read More</a>
                     <div class="info-img">
@@ -25,10 +25,14 @@ title: About Us
         <div class="row">
             <div class="col-xl-6 col-lg-6 mb-40">
                 <div class="section-title">
-                    <h2>About Us</h2>
+                    <h2>Current Openings</h2>
                 </div>
                 <div class="about-content">
-                    <p>Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. <br> <br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                  {% for job in site.data.job_posts %}
+                    <p><b>{{job.name}}</b></p>
+                    <p>{{job.description}}</p>
+                    <p><a href="{{job.url}}">More...</a></p>
+                  {% endfor %}
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 mb-20 md-margin">

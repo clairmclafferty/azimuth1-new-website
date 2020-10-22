@@ -6,7 +6,6 @@ layout: default
     {% include slider.html %}
     {% include about.html %}
     {% include capabilities.html %}
-    {% include countdown.html %}
     {% include portfolios.html %}
     {% include testimonials.html %}
     {% include team_members.html %}

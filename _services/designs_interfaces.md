@@ -1,9 +1,9 @@
 ---
 layout: featured
-title: Designs & interfaces
+title: Data Analytics
 image: /assets/img/services/01.jpg
 icon: /assets/img/icons/layer-group-solid.svg
-description: But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.
+description: We use the best practice CRISP-DM method for investigating hard problems and solving them with data. Our mastery of R and Python means we can dig in and tackle problems quickly with very little barrier to entry.
 ---
 
 <div class="row">

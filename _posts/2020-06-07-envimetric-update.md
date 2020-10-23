@@ -7,10 +7,11 @@ date: 2020-05-06 15:00:00
 author: ryan_velazquez
 folder: blog/assets/2020-05-06-envimetric-update
 headerColor: '#FFFFFF'
+headerImage: header.png
 excerpt: 'Azimuth1 analyzes groundwater factors and correlation to plume dimensions in EnviMetric model.'
 ---
 
-![plume1]({{site.baseurl}}/{{page.folder}}/plume.jpg){:class="img-responsive" width="80%"}
+![plume1]({{site.baseurl}}/{{page.folder}}/plume.jpg){:class="img-fluid" max-width="80%"}
 
 EnviMetric makes intelligent predictions about the extent of groundwater contamination even when there is no available analytical data regarding contaminant concentrations. Factors such as the site location, release type, property use, and geologic setting are very predictive of how large a groundwater plume will be.
 

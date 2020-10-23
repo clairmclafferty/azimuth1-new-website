@@ -12,15 +12,6 @@ layout: default
                     <h2>{{page.title}}</h2>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-6 text-left text-md-right">
-                <div class="breadcrumb">
-                    <ul>
-                        <li><a href="{{site.url}}">Home</a></li>
-                        <li><a href="/pages/blog">Blog</a></li>
-                        <li class="text-white pl-1"> Blog-Details</li>
-                    </ul>
-                </div>
-            </div>
         </div>
     </div>
 </section>
@@ -31,7 +22,7 @@ layout: default
             <div class="col-lg-8 blog-post-items">
                 <div class="blog-wrapper mb-60">
                     <div class="blog-thumb">
-                        <img src="{{page.post_image}}" alt="{{page.title}}"/>
+                        <img class="img-fluid" src="{{site.baseurl}}/{{page.folder}}/{{page.headerImage}}" alt="{{page.title}}"/>
                     </div>
                     <div class="blog-content">
                        {{content}}

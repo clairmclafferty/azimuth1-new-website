@@ -6,7 +6,7 @@
             <li>
                 <div class="rc-post-thumb">
                     <a href="{{post.url}}">
-                        <img src="{{site.baseurl}}/{{post.folder}}/header.png" alt="{{post.title}}"/>
+                        <img src="{{site.baseurl}}/{{post.folder}}/{{post.headerImage}}" alt="{{post.title}}"/>
                     </a>
                 </div>
                 <div class="rc-post-content">
@@ -18,12 +18,6 @@
             </li>
            {% endfor %}
         </ul>
-    </div>
-</div>
-<div class="widget">
-    <h4 class="widget-title">Banner Advertise</h4>
-    <div class="widget-banner">
-      {% include advertise.html %}
     </div>
 </div>
 <div class="widget">
@@ -47,4 +41,3 @@
         </div>
     </div>
 </div>
-

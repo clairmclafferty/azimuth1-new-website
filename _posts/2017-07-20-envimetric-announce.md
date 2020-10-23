@@ -8,9 +8,10 @@ author: jason_dalton
 folder: blog/assets/2017-07-20-envimetric-announce
 headerColor: '#fff'
 replaceHeaderImage: '#334d00'
+headerImage: header.png
 ---
 
-![]({{ site.baseurl }}/blog/assets/2017-07-20-envimetric-announce/nsf-sbir-logo.png){: width="70%"}
+![]({{ site.baseurl }}/blog/assets/2017-07-20-envimetric-announce/nsf-sbir-logo.png){: class="img-fluid" width="70%"}
 
 The US National Science Foundation selected Azimuth1 in a highly competitive round of Small Business Innovation Research awards.  The award will go to supporting our efforts to create <!--more-->  a commercial product that learns from thousands of recorded environmental spills and the following cleanups.  Our model, which we call EnviMetric, looks at an individual spill event in the context of the many others with similar contaminants, soil conditions, and groundwater flow.  It then predicts how far, deep, and wide the contaminant is likely to have traveled, giving field researchers the extra time they need to carefully plan a remediation approach, and cutting the time and cost of searching for the contaminant plume more than in half.
 

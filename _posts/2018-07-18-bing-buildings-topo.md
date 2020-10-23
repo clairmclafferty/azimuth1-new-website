@@ -7,6 +7,7 @@ date: 2018-07-18 10:00:00
 author: jason_dalton
 folder: blog/assets/2018-07-18-bing-buildings-topo
 headerColor: '#000'
+headerImage: header.png
 ---
 
 In our work with the Department of Homeland Security and dbS SAR, Azimuth1 is designing and building search and rescue software for first responders.  Part of that system is a custom topo map for SAR personnel to use to plan and carry out search tasks.  Recently Microsoft open sourced a large <!--more--> data set of building footprints that they are providing as Open Data.  [Read more here](https://blogs.bing.com/maps/2018-06/microsoft-releases-125-million-building-footprints-in-the-us-as-open-data)
@@ -17,14 +18,14 @@ We quickly integrated that data into the TotalTopo maps for search and rescue.  
 BEFORE:
 </div>
 <div class="flexItem col-md-10">
-<img class="img-responsive sarcatImg" src="{{site.baseurl}}/{{page.folder}}/buildings-before.png">
+<img class="img-fluid img-float sarcatImg" src="{{site.baseurl}}/{{page.folder}}/buildings-before.png">
 </div>
 
 <div class="flexItem col-md-2">
 AFTER:
 </div>
 <div class="flexItem col-md-10">
-<img class="img-responsive sarcatImg" src="{{site.baseurl}}/{{page.folder}}/buildings-after.png">
+<img class="img-fluid img-float sarcatImg" src="{{site.baseurl}}/{{page.folder}}/buildings-after.png">
 </div>
 
 

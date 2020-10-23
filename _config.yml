@@ -2,8 +2,7 @@ title: "Azimuth1 -  Geospatial Analytics | See your world more clearly"
 email: "contact@azimuth1.com"
 description: >- # this means to ignore newlines until "baseurl:"
  Azimuth1 - See your world more clearly
- baseurl: ""
-#baseurl: "/azimuth1-new-website" # the subpath of your site, e.g. /blog
+ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://testazimuth1site.com" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
 facebook_url: https://www.facebook.com/Azimuth1Tech
 twitter_url: https://twitter.com/Azimuth1Tech
@@ -13,8 +12,8 @@ linkedin_url: https://www.linkedin.com/company/azimuth1/
 instagram_url: https://www.instagram.com/azimuth1tech/
 logo: "/assets/img/logo/azimuth1logo.png"
 logo_2: "/assets/img/logo/logo_2.png"
-mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
-mailchimp_input_name: "b_307862c135e4548eecf86f389_342411fb35"
+#mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
+#mailchimp_input_name: "b_307862c135e4548eecf86f389_342411fb35"
 
 permalink: "/:title"
 

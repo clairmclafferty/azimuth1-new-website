@@ -86,4 +86,4 @@ The FIND software is part of a trio of tools developed for SAR use.
 2. The SARCAT records management system for agencies who need to track search incidents.  It has all the data entry needed to report to the International Search and Rescue Incident Database (ISRID).  SARCAT is free and open source.
 3. The FIND search management system.  Desktop/laptop server application that hosts a search management system for planning, tracking, and managing a lost person search.
 
-<img style="float: right" src="{{site.baseurl}}/{{page.folder}}/nps_sign.jpg">
+<img style="img-fluid float: right" src="{{site.baseurl}}/{{page.folder}}/nps_sign.jpg">

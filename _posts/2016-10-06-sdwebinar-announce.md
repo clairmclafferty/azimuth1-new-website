@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: post
 title: SmartData Solutions webinar Oct 12!
 subtitle: Advantages to using online collaboration across all stakeholders in environmental site characterization

@@ -1,7 +1,6 @@
 #Please use the main menu items under the "text"
 
 - text: Solutions
-  url: /solutions
   submenu:
     - text: Environmental
       url: /pages/environmental

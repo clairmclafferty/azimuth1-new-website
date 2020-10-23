@@ -42,7 +42,7 @@
                             <a href="{{site.url}}"><img src="{{site.baseurl}}/assets/img/logo/footer_logo.png" class="img-fluid" alt="{{site.title}}"></a>
                         </div>
                         <div class="footer-text">
-                            <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
+                            <p>Azimuth1 is a small but fast moving team of data analytics and computer science experts on a mission to bring specialty data analysis applications to environmental, energy, and public safety challenges.</p>
                         </div>
                         <div class="footer-social-icon">
                             <span>Follow us</span>
@@ -58,16 +58,24 @@
                             <h3>Useful Links</h3>
                         </div>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">about</a></li>
-                            <li><a href="#">services</a></li>
-                            <li><a href="#">portfolio</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Expert Team</a></li>
-                            <li><a href="#">Contact us</a></li>
-                            <li><a href="#">Latest News</a></li>
+                            <li><a href="/">Home</a></li>
+                            {% for link in site.data.navigation %}
+                            {% assign active = nil %}
+
+                            {% for sublink in link.submenu %}
+                                {% if page.url contains sublink.url %}
+                                    {% assign active = 'active' %}
+                                {% endif %}
+                            {% endfor %}
+
+                            {% if page.url contains link.url %}
+                                {% assign active = 'active' %}
+                            {% endif %}
+                            
+                            <li>
+                                <a href="{{link.url}}">{{link.text}}</a>
+                            </li>
+                            {% endfor %}
                         </ul>
                     </div>
                 </div>
@@ -100,7 +108,7 @@
                             <li><a href="#">Terms</a></li>
                             <li><a href="#">Privacy</a></li>
                             <li><a href="#">Policy</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="/pages/contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>

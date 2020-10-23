@@ -22,8 +22,7 @@ layout: default
             <div class="col-lg-8 blog-post-items">
                 <div class="blog-wrapper mb-60">
                     <div class="blog-thumb">
-                        <img src="{{page.post_image}}" alt="{{page.title}}"/>
-                        <img src="{{post.headerImage}}" alt="{{page.title}}"/>
+                        <img src="{{site.baseurl}}/{{post.folder}}/{{post.headerImage}}" alt="{{page.title}}"/>
                     </div>
                     <div class="blog-content">
                        {{content}}

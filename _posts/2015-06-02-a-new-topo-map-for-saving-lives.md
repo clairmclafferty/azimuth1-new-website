@@ -23,8 +23,8 @@ The new contour lines are algorithmically generated from digital elevation data 
 
 <html>
 <div class="row row-centered mar2">
-<div class="col-xs-6 col-centered pad0"><h4 class="text-center">Pre-2009 Raster Contours</h4><img class="img-responsive" src="{{ site.baseurl }}/{{page.folder}}/USGS_old1.png"></div>
-<div class="col-xs-6 col-centered pad0"><h4 class="text-center">Current Vector Contours</h4><img class="img-responsive" src="{{ site.baseurl }}/{{page.folder}}/USGS_new1.png"></div>
+<div class="col-xs-6 col-centered pad0"><h4 class="text-center">Pre-2009 Raster Contours</h4><img class="img-fluid" src="{{ site.baseurl }}/{{page.folder}}/USGS_old1.png"></div>
+<div class="col-xs-6 col-centered pad0"><h4 class="text-center">Current Vector Contours</h4><img class="img-fluid" src="{{ site.baseurl }}/{{page.folder}}/USGS_new1.png"></div>
 </div>
 </html>
 
@@ -36,8 +36,8 @@ Utility lines, like trails, are often used by lost persons to travel.  They are 
 
 <html>
 <div class="row row-centered mar2">
-<div class="col-xs-6 col-centered pad0"><h4 class="text-center">Pre-2009 Raster utilities</h4><img class="img-responsive" src="{{ site.baseurl }}/{{page.folder}}/USGS_old2.png"></div>
-<div class="col-xs-6 col-centered pad0"><h4 class="text-center">Current Vector maps without utilities</h4><img class="img-responsive" src="{{ site.baseurl }}/{{page.folder}}/USGS_new2.png"></div>
+<div class="col-xs-6 col-centered pad0"><h4 class="text-center">Pre-2009 Raster utilities</h4><img class="img-fluid" src="{{ site.baseurl }}/{{page.folder}}/USGS_old2.png"></div>
+<div class="col-xs-6 col-centered pad0"><h4 class="text-center">Current Vector maps without utilities</h4><img class="img-fluid" src="{{ site.baseurl }}/{{page.folder}}/USGS_new2.png"></div>
 </div>
 </html>
 
@@ -48,8 +48,8 @@ Trails were removed from the new US Topo series - a critical feature to know abo
 
 <html>
 <div class="row row-centered mar2">
-<div class="col-xs-6 col-centered pad0"><h4 class="text-center">Pre-2009 Raster trails</h4><img class="img-responsive" src="{{ site.baseurl }}/{{page.folder}}/USGS_old3.png"></div>
-<div class="col-xs-6 col-centered pad0"><h4 class="text-center">Current Vector maps without trails</h4><img class="img-responsive" src="{{ site.baseurl }}/{{page.folder}}/USGS_new3.png"></div>
+<div class="col-xs-6 col-centered pad0"><h4 class="text-center">Pre-2009 Raster trails</h4><img class="img-fluid" src="{{ site.baseurl }}/{{page.folder}}/USGS_old3.png"></div>
+<div class="col-xs-6 col-centered pad0"><h4 class="text-center">Current Vector maps without trails</h4><img class="img-fluid" src="{{ site.baseurl }}/{{page.folder}}/USGS_new3.png"></div>
 </div>
 </html>
 
@@ -60,8 +60,8 @@ Buildings were removed from the new US Topo series.  They just change much faste
 
 <html>
 <div class="row row-centered mar2">
-<div class="col-xs-6 col-centered pad0"><h4 class="text-center">Pre-2009 Raster buildings</h4><img class="img-responsive" src="{{ site.baseurl }}/{{page.folder}}/usgs-bldg-old.png"></div>
-<div class="col-xs-6 col-centered pad0"><h4 class="text-center">Current Vector maps without  buildings</h4><img class="img-responsive" src="{{ site.baseurl }}/{{page.folder}}/usgs-bldg-new.png"></div>
+<div class="col-xs-6 col-centered pad0"><h4 class="text-center">Pre-2009 Raster buildings</h4><img class="img-fluid" src="{{ site.baseurl }}/{{page.folder}}/usgs-bldg-old.png"></div>
+<div class="col-xs-6 col-centered pad0"><h4 class="text-center">Current Vector maps without  buildings</h4><img class="img-fluid" src="{{ site.baseurl }}/{{page.folder}}/usgs-bldg-new.png"></div>
 </div>
 </html>
 

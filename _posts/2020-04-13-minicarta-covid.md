@@ -7,6 +7,7 @@ date: 2020-04-13 10:00:00
 author: jason_dalton
 folder: blog/assets/2020-04-13-minicarta-covid
 headerColor: '#030'
+headerImage: header.png
 excerpt: 'Azimuth1 is set to launch a modified version of its MiniCarta team mapping mobile app this week to
 support the needs of first responders and public safety officials collecting data on COVID-19 outbreak and
 response.'

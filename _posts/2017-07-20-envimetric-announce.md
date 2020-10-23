@@ -8,6 +8,7 @@ author: jason_dalton
 folder: blog/assets/2017-07-20-envimetric-announce
 headerColor: '#fff'
 replaceHeaderImage: '#334d00'
+headerImage: header.png
 ---
 
 ![]({{ site.baseurl }}/blog/assets/2017-07-20-envimetric-announce/nsf-sbir-logo.png){: width="70%"}

@@ -9,13 +9,6 @@
       url: /pages/pubsafety
     - text: National Security
       url: /pages/natsec
-- text: Products
-  url: /products
-  submenu:
-    - text: EnviMetric
-      url: /pages/envimetric
-    - text: QuickRoute
-      url: /pages/quickroute
 - text: Company
   url: /pages/company
   submenu:
@@ -25,11 +18,6 @@
       url: /pages/team
     - text: Careers
       url: /pages/careers
-- text: Portfolio
-  url: /pages/portfolio
-  submenu:
-      - text: Portfolio Details
-        url: /pages/portfolio-details
 - text: Blog
   url: /pages/blog
 - text: Contact

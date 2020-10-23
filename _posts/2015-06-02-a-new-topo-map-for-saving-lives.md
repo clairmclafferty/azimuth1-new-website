@@ -14,7 +14,7 @@ A child is lost in the forest.  An elderly dementia patient wanders away from ho
 
 ## Then USGS updated their maps
 
-In 2009, the USGS began changing the style and delivery of their topo maps under the new <a href="http://nationalmap.gov/ustopo/" target="_blank">US Topo</a> program.  As changes in our environment appeared more rapidly, the USGS sought to streamline their map production process to increase production, save time, money, and labor. Several tradeoffs were made that impacted the usefullness of these maps for SAR purposes. The new US Topo map style has several cartographic improvements for readability on digital devices, and they are delivered in more flexible layered PDF files rather than fixed raster images.  However, many important features were removed or degraded that can impact the ability of SAR teams to accurately navigate and ensure that they have covered an area.
+In 2009, the USGS began changing the style and delivery of their topo maps under the new <a href="http://nationalmap.gov/ustopo/" target="_blank">US Topo</a> program.  As changes in our environment appeared more rapidly, the USGS sought to streamline their map production process to increase production, save time, money, and labor. Several tradeoffs were made that impacted the usefulness of these maps for SAR purposes. The new US Topo map style has several cartographic improvements for readability on digital devices, and they are delivered in more flexible layered PDF files rather than fixed raster images.  However, many important features were removed or degraded that can impact the ability of SAR teams to accurately navigate and ensure that they have covered an area.
 
 The new contour lines are algorithmically generated from digital elevation data rather than from manual photogrammetry.  Faster, cheaper, but lacks details for precise navigation in microterrain [^1].
 
@@ -106,7 +106,7 @@ You can access the new SAR map below and at <a href="http://sandlot.azimuth1.net
 SAR folks! Please give us your feedback and ideas to make this map more helpful in saving lives outdoors.   And look for our next post in this series where we detail the data, technology, and processing used to create these maps.
 
 #### Test drive our topo for the state of Virginia
-<iframe class='mapembed' width="800" height="380" src="http://sandlot.azimuth1.net/" frameborder="0" allowfullscreen></iframe>
+<iframe class='mapembed' width="800" height="380" src="http://totaltopo.findsar.com/services/totaltopo/map" frameborder="0" allowfullscreen></iframe>
 
 
 See [part 2]({% post_url 2015-06-07-sar-topo-tech-notes %}) of this article where we detail the tech approach to creating the SAR map.

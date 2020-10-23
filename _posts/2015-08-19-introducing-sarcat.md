@@ -29,7 +29,7 @@ These statistics come from data provided to ISRID, the International Search and 
 SARCAT is easy to set up, with just a single script to install and start the server.   Users access it through a browser, so there's nothing to install on user's desktops.  Our design goals were to make it simple and fast to use, install, and maintain.  We did this by creating a single step installer, a fast web based UI, and using web services to automatically pull in data that is normally collected on paper.   
 </div>
 <div class="flexItem col-md-6">
-<img class="img-responsive sarcatImg" src="{{site.baseurl}}/{{page.folder}}/SARCAT_stats_screen.png">
+<img class="img-fluid sarcatImg" src="{{site.baseurl}}/{{page.folder}}/SARCAT_stats_screen.png">
 </div>
 
 </div>
@@ -44,7 +44,7 @@ SARCAT is easy to set up, with just a single script to install and start the ser
 
 
 <div class="flexItem col-md-12">
-<img class="img-responsive sarcatImg" src="{{site.baseurl}}/{{page.folder}}/SARCAT_record_map_screen.png">
+<img class="img-fluid sarcatImg" src="{{site.baseurl}}/{{page.folder}}/SARCAT_record_map_screen.png">
 </div>
 
 
@@ -57,7 +57,7 @@ It all starts with the map.  The user drops a point on a map to start the record
 
 
 <div class="flexItem col-md-6">
-<img class="img-responsive sarcatImg" src="{{site.baseurl}}/{{page.folder}}/SARCAT_record_weather_screen.png">
+<img class="img-fluid sarcatImg" src="{{site.baseurl}}/{{page.folder}}/SARCAT_record_weather_screen.png">
 </div>
 
 </div>

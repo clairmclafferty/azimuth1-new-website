@@ -18,14 +18,14 @@ We quickly integrated that data into the TotalTopo maps for search and rescue.  
 BEFORE:
 </div>
 <div class="flexItem col-md-10">
-<img class="img-responsive img-float sarcatImg" src="{{site.baseurl}}/{{page.folder}}/buildings-before.png">
+<img class="img-fluid img-float sarcatImg" src="{{site.baseurl}}/{{page.folder}}/buildings-before.png">
 </div>
 
 <div class="flexItem col-md-2">
 AFTER:
 </div>
 <div class="flexItem col-md-10">
-<img class="img-responsive img-float sarcatImg" src="{{site.baseurl}}/{{page.folder}}/buildings-after.png">
+<img class="img-fluid img-float sarcatImg" src="{{site.baseurl}}/{{page.folder}}/buildings-after.png">
 </div>
 
 

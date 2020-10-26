@@ -54,8 +54,8 @@ title: Careers
                     <h2>Current Openings</h2>
                 </div>
                 <div class="about-content">
-                  </hr>
                   {% for job in site.data.jobposts %}
+                    </hr>
                     <p><b>{{job.name}}</b></p>
                     <p>{{job.description}}</p>
                     <p><a href="{{job.url}}">More...</a></p>

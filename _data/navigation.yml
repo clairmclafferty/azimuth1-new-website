@@ -3,11 +3,11 @@
 - text: Solutions
   submenu:
     - text: Environmental
-      url: /pages/environmental
+      url: /pages/environmental-sciences
     - text: Public Safety
       url: /pages/public-safety
     - text: National Security
-      url: /pages/natsec
+      url: /pages/national-security
 - text: Company
   url: /pages/company
   submenu:

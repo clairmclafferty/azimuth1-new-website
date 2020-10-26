@@ -430,6 +430,26 @@ label {
 .transparent-bg.sticky {
 	background: #111;
 }
+
+a.topheader:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.topheader:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.topheader:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
 /* search modal */
 .menu-tigger {
 	float: right;

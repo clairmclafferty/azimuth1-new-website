@@ -449,7 +449,23 @@ a.topheader:hover {
   text-decoration: underline;
 }
 
+a.footer:link {
+  color: #757575;
+  background-color: transparent;
+  text-decoration: none;
+}
 
+a.footer:visited {
+  color: #757575;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.footer:hover {
+  color: #757575;
+  background-color: transparent;
+  text-decoration: underline;
+}
 /* search modal */
 .menu-tigger {
 	float: right;

@@ -1,14 +1,14 @@
-datascientist:
+-datascientist:
   name: Senior Data Scientist
   description: Describe a data science position
   url: https://docs.google.com/document/d/135hWiisbvqNOkktuyXPp8wPc3i9TJmEQ2j6RcRzzzU8
 
-mobiledev:
+-mobiledev:
   name: Mobile Developer
   description: Describe a mobile dev position
   url: https://docs.google.com/document/d/1iHQQDBXLTQx1yug-429h7H-MHbw8lFnljylXQUEPXzE
 
-javascriptdev:
+-javascriptdev:
   name: Full Stack JS Developer
   description: describe a full stack JS developer
   url: https://docs.google.com/document/d/1A-8nR98NqgLNPHjWHdabrBRnOU4QU7oxC3LeiSuJG0E

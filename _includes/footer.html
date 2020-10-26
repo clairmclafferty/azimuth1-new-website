@@ -39,7 +39,7 @@
                 <div class="col-xl-4 col-lg-4 mb-50">
                     <div class="footer-widget">
                         <div class="footer-logo">
-                            <a href="{{site.url}}"><img src="{{site.baseurl}}/assets/img/logo/footer_logo.png" class="img-fluid" alt="{{site.title}}"></a>
+                            <a href="{{site.url}}"><img src="{{site.baseurl}}/assets/img/logo/footer_logo.png" class="img-fluid mw-60" alt="{{site.title}}"></a>
                         </div>
                         <div class="footer-text">
                             <p>Azimuth1 is a small but fast moving team of data analytics and computer science experts on a mission to bring specialty data analysis applications to environmental, energy, and public safety challenges.</p>
@@ -49,6 +49,7 @@
                             <a href="{{site.facebook_url}}"><i class="fab fa-facebook-f facebook-bg"></i></a>
                             <a href="{{site.twitter_url}}"><i class="fab fa-twitter twitter-bg"></i></a>
                             <a href="{{site.linkedin_url}}"><i class="fab fa-linkedin facebook-bg"></i></a>
+                            <a href="{{site.instagram_url}}"><i class="fab fa-instagram instagram-bg"></i></a>
                         </div>
                     </div>
                 </div>
@@ -71,7 +72,7 @@
                             {% if page.url contains link.url %}
                                 {% assign active = 'active' %}
                             {% endif %}
-                            
+
                             <li>
                                 <a href="{{link.url}}">{{link.text}}</a>
                             </li>

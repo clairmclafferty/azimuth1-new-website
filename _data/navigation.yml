@@ -2,7 +2,7 @@
 
 - text: Solutions
   submenu:
-    - text: Environmental
+    - text: Environmental Sciences
       url: /pages/environmental-sciences
     - text: Public Safety
       url: /pages/public-safety

@@ -72,9 +72,9 @@ That being said, Mapbox Studio is a very powerful, and actively evolving design 
     - Query includes all features `natural=peak`.
     - Elevation from OSM is included in label.
 
-You can view the map below and <a href="http://sandlot.azimuth1.net/FIND/" target="blank">here</a>.
+You can view the map below and <a href="http://totaltopo.findsar.com/services/totaltopo/map" target="blank">here</a>.
 
-<iframe class='mapfembed rofw cofntainer' width="100%" height="380" src="http://sandlot.azimuth1.net/" frameborder="0" allodwfullscreen></iframe>
+<iframe class='mapfembed rofw cofntainer' width="100%" height="380" src="http://totaltopo.findsar.com/services/totaltopo/map" frameborder="0" allodwfullscreen></iframe>
 
 
 

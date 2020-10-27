@@ -13,7 +13,7 @@ tags: GIS events
 ---
 
 
-If you're heading to the 26th Annual Virginia GIS Conference next week, you can have a little fun with a geo-challenge we've set up.  You'll need to find the <!--more--> map provided to you in your conference bag at registration.  Open it up and you'll find directions to two of four geo-tokens we've placed around town, nearby the conference.  Get out there, discover some areas of Charlottesville, and if you find a token and bring it back to us at the Azimuth1 booth in the exhibit hall, you'll win a prize for your effort.  Follow us on Twitter for more info during the conference https://twitter.com/Azimuth1Tech
+If you're heading to the 26th Annual Virginia GIS Conference next week, you can have a little fun with a geo-challenge we've set up.  You'll need to find the map provided to you in your conference bag at registration.  Open it up and you'll find directions to two of four geo-tokens we've placed around town, nearby the conference.  Get out there, discover some areas of Charlottesville, and if you find a token and bring it back to us at the Azimuth1 booth in the exhibit hall, you'll win a prize for your effort.  Follow us on Twitter for more info during the conference https://twitter.com/Azimuth1Tech
 
 <img style="img-fluid float: right" src="{{site.baseurl}}/{{page.folder}}/geotokens.jpg">
 

@@ -12,7 +12,7 @@ headerImage: entrance.jpg
 tags: team
 ---
 
-We're excited to welcome Robert Sellers to our team! Robert is a  data scientist based in NYC and will be focusing on our navigation and routing products as well as analyzing data for our NSF SBIR program called EnviMetric. <!--more-->
+We're excited to welcome Robert Sellers to our team! Robert is a  data scientist based in NYC and will be focusing on our navigation and routing products as well as analyzing data for our NSF SBIR program called EnviMetric.
 
 ![]({{ site.baseurl }}/pics/bios/robert_sellers_profile_pic.jpg){: class="img-fluid" width="40%"}
 

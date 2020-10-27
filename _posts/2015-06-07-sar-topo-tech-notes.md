@@ -12,7 +12,7 @@ tags: SAR geospatial
 
 
 
-As you may have read in our [preceding post](http://www.azimuth1.com/a-new-topo-map-for-saving-lives/), the Search and Rescue (SAR) map we are building seeks to combine the vital features of USGS topographic maps with the ease of use, readability, and<!--more--> higher update frequency of a vector tile based map, in addition to providing supplemental data that may prove useful in SAR related work. This follow-up post is meant to further elaborate on the process behind the SAR map's creation and current status.
+As you may have read in our [preceding post](http://www.azimuth1.com/a-new-topo-map-for-saving-lives/), the Search and Rescue (SAR) map we are building seeks to combine the vital features of USGS topographic maps with the ease of use, readability, and higher update frequency of a vector tile based map, in addition to providing supplemental data that may prove useful in SAR related work. This follow-up post is meant to further elaborate on the process behind the SAR map's creation and current status.
 
 ## A brief introduction
 

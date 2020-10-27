@@ -9,6 +9,7 @@ folder: blog/assets/2015-08-19-introducing-sarcat
 headerColor: '#fff'
 replaceHeaderImage: '#325271'
 headerImage: header.png
+tags: SAR
 ---
 
 <div class="pad1y"></div>

@@ -9,6 +9,7 @@ folder: blog/assets/2019-07-01-welcome-ryan
 headerColor: '#030'
 headerImage: entrance.jpg
 postImage: ryan.jpg
+tags: team
 ---
 We're happy to welcome Ryan Velazquez to the Azimuth1 team!  
 

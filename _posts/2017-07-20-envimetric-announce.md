@@ -9,6 +9,7 @@ folder: blog/assets/2017-07-20-envimetric-announce
 headerColor: '#fff'
 replaceHeaderImage: '#334d00'
 headerImage: header.png
+tags: environment data_science
 ---
 
 ![]({{ site.baseurl }}/blog/assets/2017-07-20-envimetric-announce/nsf-sbir-logo.png){: class="img-fluid" width="70%"}

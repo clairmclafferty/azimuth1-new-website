@@ -8,6 +8,7 @@ author: jason_dalton
 folder: blog/assets/2015-06-02-a-new-topo-map-for-saving-lives
 headerColor: '#000'
 headerImage: header.png
+tags: SAR geospatial
 ---
 
 A child is lost in the forest.  An elderly dementia patient wanders away from home.  A hiker is overdue from a weekend outing.  These scenarios happen daily around the world and wilderness search and rescue teams are called in to find<!--more--> that missing person.  Wilderness SAR teams are specially trained to travel in small groups over varying terrain in all weather, day and night. The lives saved by SAR each year owe their safe return to the training, dedication, and compassion of a largely volunteer SAR response across the globe.  The mission of finding lost individuals often starts on a map.  Maps are used to find likely places where the lost person may have stopped, lost their way, or tried to reach, and so are used to prioritize search tasks for a search mission.  The same map is used in the field as team leaders navigate their way through the task, delineating which areas they have searched and where they have not.  A good map is critical to this accurate accounting of the search effort to ensure that the entire area is being covered appropriately. In the United States, the map most often used for search missions is the US Geological Survey (USGS) <a href="http://en.wikipedia.org/wiki/Quadrangle_%28geography%29" target="_blank">7.5 minute series topographic map</a>.  These maps have a long history of exhaustive work and meticulous detail that went into each map revision.    

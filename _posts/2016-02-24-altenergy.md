@@ -9,6 +9,7 @@ folder: blog/assets/2016-02-24-altenergy
 headerColor: '#fff'
 replaceHeaderImage: '#325271'
 headerImage: header.png
+tags: energy events
 ---
 
 Today at the ESRI Federal User Group Conference, they announced HIFLD Open, which is a subset of the HIFLD (formerly known as HSIP) data that is open, and with no release restrictions.  So we went looking for data we could use for our environmental and energy analytics work.  Here's are some quick maps of alternative fueling stations across the country. <!--more--> Each shows the distribution of seven types of fueling stations.  

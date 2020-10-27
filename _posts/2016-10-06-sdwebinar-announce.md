@@ -9,6 +9,7 @@ folder: blog/assets/2016-10-06-sdwebinar-announce
 headerColor: '#fff'
 replaceHeaderImage: '#334d00'
 headerImage: header.png
+tags: environment events
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IGo23TJ1C90" frameborder="0" allowfullscreen></iframe>

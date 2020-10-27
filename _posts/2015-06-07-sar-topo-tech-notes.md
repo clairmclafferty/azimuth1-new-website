@@ -7,6 +7,7 @@ author: azimuth1_team
 folder: blog/assets/2015-06-07-sar-topo-tech-notes
 headerColor: '#fff'
 headerImage: header.png
+tags: SAR geospatial
 ---
 
 

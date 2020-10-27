@@ -9,6 +9,7 @@ folder: blog/assets/2020-05-06-envimetric-update
 headerColor: '#FFFFFF'
 headerImage: header.png
 excerpt: 'Azimuth1 analyzes groundwater factors and correlation to plume dimensions in EnviMetric model.'
+tags: environment data_science
 ---
 
 ![plume1]({{site.baseurl}}/{{page.folder}}/plume.jpg){:class="img-fluid" max-width="80%"}

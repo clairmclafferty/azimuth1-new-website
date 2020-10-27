@@ -9,6 +9,7 @@ folder: blog/assets/2015-10-15-giscavenger
 headerColor: '#fff'
 replaceHeaderImage: '#325271'
 headerImage: header.png
+tags: GIS events
 ---
 
 

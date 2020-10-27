@@ -9,6 +9,7 @@ folder: blog/assets/2017-11-05-welcome-robert
 headerColor: '#fff'
 replaceHeaderImage: '#334d00'
 headerImage: entrance.jpg
+tags: team
 ---
 
 We're excited to welcome Robert Sellers to our team! Robert is a  data scientist based in NYC and will be focusing on our navigation and routing products as well as analyzing data for our NSF SBIR program called EnviMetric. <!--more-->

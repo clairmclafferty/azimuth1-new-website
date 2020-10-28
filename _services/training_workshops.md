@@ -1,7 +1,7 @@
 ---
 layout: featured
 title: Training Workshops and Speaking Engagements
-icon: /assets/img/icons/address-card-solid.svg
+icon: /assets/img/icons/teaching.svg
 image: /assets/img/services/05.jpg
 description: Features & plugins parturient denouncing pleasure and praising pain was born and I will give you a complete.
 ---

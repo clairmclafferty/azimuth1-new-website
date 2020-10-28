@@ -2,7 +2,7 @@
 layout: featured
 title: Data Science
 image: /assets/img/services/01.jpg
-icon: /assets/img/icons/layer-group-solid.svg
+icon: /assets/img/icons/machinelearning.svg
 description: We use the best practice CRISP-DM method for investigating hard problems and solving them with data. Our mastery of R and Python means we can dig in and tackle data analytics and data engineering problems quickly with very little barrier to entry.
 ---
 

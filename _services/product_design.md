@@ -1,7 +1,7 @@
 ---
 layout: featured
 title: Product Design
-icon: /assets/img/icons/algolia-brands.svg
+icon: /assets/img/icons/design.svg
 image: /assets/img/services/02.jpg
 description: Condimentum consectetur quaerat parturient denouncing pleasure and praising pain was born and I will give you a complete.
 ---

@@ -1,7 +1,7 @@
 ---
 layout: featured
 title: Problem Solving Innovation
-icon: /assets/img/icons/air-freshener-solid.svg
+icon: /assets/img/icons/solution.svg
 image: /assets/img/services/03.jpg
 description: Highly customizable parturient denouncing pleasure and praising pain was born and I will give you a complete.
 ---

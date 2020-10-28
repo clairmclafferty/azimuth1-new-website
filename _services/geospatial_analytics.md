@@ -1,7 +1,7 @@
 ---
 layout: featured
 title: Geospatial Analytics
-icon: /assets/img/icons/american-sign-language-interpreting-solid.svg
+icon: /assets/img/icons/map.svg
 image: /assets/img/services/02.jpg
 description: Dedicated support quaerat parturient denouncing pleasure and praising pain was born and I will give you a complete.
 ---

@@ -460,7 +460,7 @@ a.footer:visited {
   background-color: transparent;
   text-decoration: none;
 }
- 
+
 a.footer:hover {
   color: #757575;
   background-color: transparent;
@@ -1341,6 +1341,12 @@ a.footer:hover {
 }
 .facebook-bg{
 	background: #3B5998;
+}
+.linkedin-bg{
+	background: #3B5998;
+}
+.instagram-bg{
+	background: #C70039;
 }
 .twitter-bg{
 	background: #55ACEE;

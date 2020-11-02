@@ -205,10 +205,9 @@
   // clients
 
   $(".clients-active").owlCarousel({
-    loop: false,
+    loop: true,
     nav: false,
     autoplay: true,
-    autoWidth: true,
     responsive: {
       0: {
         items: 2

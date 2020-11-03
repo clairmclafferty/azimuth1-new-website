@@ -3,7 +3,7 @@ layout: featured
 title: Problem Solving Innovation
 icon: /assets/img/icons/solution.svg
 image: /assets/img/services/03.jpg
-description: Highly customizable parturient denouncing pleasure and praising pain was born and I will give you a complete.
+description: To get new results, you have to change your approach. We tackle process innovation to bring smart solutions that combine expertise, data, and computing steps to maximize results.
 ---
 
 <div class="row">

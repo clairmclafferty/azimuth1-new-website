@@ -3,7 +3,7 @@ layout: featured
 title: Geospatial Analytics
 icon: /assets/img/icons/map.svg
 image: /assets/img/services/02.jpg
-description: Dedicated support quaerat parturient denouncing pleasure and praising pain was born and I will give you a complete.
+description: The power of GIS combined with machine learning and analytics techniques leads to incredibly useful and understandable results that give insight into where to place your most valuable assets.
 ---
 
 <div class="row">

@@ -1423,7 +1423,7 @@ a.footer:hover {
 .breadcrumb-area {
 	background-size: cover;
 	background-position: center;
-	height: 300px;
+	height: 200px;
 	display: flex;
 	align-items: center;
 }

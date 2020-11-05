@@ -7,6 +7,7 @@ date: 2020-11-04 15:00:00
 author: jason_dalton
 folder: blog/assets/2020-11-04-covid
 headerColor: '#FFFFFF'
+headerImage: 'header.jpg'
 ---
 
 

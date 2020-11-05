@@ -5,12 +5,10 @@ title: COVID-19 and the Environmental Remediation Industry.
 subtitle: How does the environmental remediation industry feel that COVID-19 has affected things - survey results
 date: 2020-11-04 15:00:00
 author: jason_dalton
-folder: blog/assets/2020-11-04-covid
+folder: blog/assets/2020-11-04-covid-impacts
 headerColor: '#FFFFFF'
 headerImage: 'header.jpg'
 ---
-
-
 
 Thank you to everyone that participated in our COVID-19 Environmental Remediation Survey. We started this survey because as we talk to dozens of remediation professionals each week we are getting a sense for how people are adjusting, coping, and sometimes thriving in a pandemic world right now.  I particularly wanted to understand more about the impact on small businesses and if the COVID restrictions or just difficulties in traveling and in-person work were having an oversized effect on small businesses.  We were very intrigued by the results we found and are happy to share them with you today. Let’s walk through each question and the overall results as well as sliced a few of the questions out by industry and/or company size to give more specific cohort results.
 

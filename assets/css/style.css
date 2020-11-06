@@ -497,8 +497,8 @@ a.footer:hover {
 	color: #ff5e14;
 }
 .anchor {
-  padding-top: 40px;
-  margin-top: -40px;
+  padding-top: 80px;
+  margin-top: -80px;
 }
 #search-modal {
 	background-color: rgba(23,26,33,.95);

@@ -112,6 +112,12 @@ h2 {
 h3 {
 	font-size: 28px;
 }
+
+h3.anchor {
+  padding-top: 40px;
+  margin-top: -40px;
+}
+
 h4 {
 	font-size: 22px;
 }

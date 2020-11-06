@@ -25,7 +25,7 @@ headerImage: 'header.png'
                     <div class="blog-thumb">
                         <img class="img-fluid" src="{{site.baseurl}}/{{page.folder}}/{{page.headerImage}}" alt="{{page.title}}"/>
                     </div>
-                    <h5>{{page.date}}</h5>
+                    <h5>{{ page.date | date: '%B %d, %Y' }}</h5>
                     <div class="blog-content">
                        {{content}}
                         <div class="row mt-30">

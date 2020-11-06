@@ -113,11 +113,6 @@ h3 {
 	font-size: 28px;
 }
 
-h3.anchor {
-  padding-top: 40px;
-  margin-top: -40px;
-}
-
 h4 {
 	font-size: 22px;
 }
@@ -500,6 +495,10 @@ a.footer:hover {
 }
 .menu-icon i:hover{
 	color: #ff5e14;
+}
+.anchor {
+  padding-top: 40px;
+  margin-top: -40px;
 }
 #search-modal {
 	background-color: rgba(23,26,33,.95);

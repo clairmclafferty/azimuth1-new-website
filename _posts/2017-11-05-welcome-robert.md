@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Welcome to the team, Robert Sellers!
 subtitle: Azimuth1 adds new data science talent to our team
-date: 2017-11-05 10:00:00
+date: 2017-11-05
 author: jason_dalton
 folder: blog/assets/2017-11-05-welcome-robert
 headerColor: '#fff'

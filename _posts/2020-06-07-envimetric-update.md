@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Incorporating site-specific analytical data and machine learning to predict environmental site conditions.
 subtitle: Modeling using previously collected data and the EnviMetric machine learning algorithm to garner new insights for contaminated properties.
-date: 2020-05-06 15:00:00
+date: 2020-05-06
 author: ryan_velazquez
 folder: blog/assets/2020-05-06-envimetric-update
 headerColor: '#FFFFFF'

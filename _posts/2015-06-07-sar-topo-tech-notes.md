@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: A technical overview of our SAR topo implementation
-date: 2015-06-07 12:00:00
+date: 2015-06-07
 author: azimuth1_team
 folder: blog/assets/2015-06-07-sar-topo-tech-notes
 headerColor: '#fff'

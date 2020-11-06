@@ -3,7 +3,7 @@ published: true
 layout: post
 title: COVID-19 and the Environmental Remediation Industry.
 subtitle: How does the environmental remediation industry feel that COVID-19 has affected things - survey results
-date: 2020-11-04 15:00:00
+date: 2020-11-04
 author: jason_dalton
 folder: blog/assets/2020-11-04-covid-impacts
 headerColor: '#FFFFFF'

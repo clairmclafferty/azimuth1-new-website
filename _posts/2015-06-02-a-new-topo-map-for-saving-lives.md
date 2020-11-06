@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Designing a topo map for search and rescue
 subtitle: Using open map data to help save lives outdoors
-date: 2015-06-02 12:00:00
+date: 2015-06-02
 author: jason_dalton
 folder: blog/assets/2015-06-02-a-new-topo-map-for-saving-lives
 headerColor: '#000'

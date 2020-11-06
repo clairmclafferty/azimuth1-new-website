@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Maps of alternative fuel stations in the US
 subtitle: Data provided by the new HIFLD Open data set
-date: 2016-02-24 12:00:00
+date: 2016-02-24
 author: jason_dalton
 folder: blog/assets/2016-02-24-altenergy
 headerColor: '#fff'

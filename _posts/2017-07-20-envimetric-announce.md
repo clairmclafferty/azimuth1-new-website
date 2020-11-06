@@ -3,7 +3,7 @@ published: true
 layout: post
 title: NSF invests in Azimuth1 to bring AI and data analytics to environmental cleanup
 subtitle: We're applying machine learning and big data analytics to create useful models for the size, shape, and concentration of underground contaminants in the soil and groundwater.
-date: 2017-07-20 10:00:00
+date: 2017-07-20
 author: jason_dalton
 folder: blog/assets/2017-07-20-envimetric-announce
 headerColor: '#fff'

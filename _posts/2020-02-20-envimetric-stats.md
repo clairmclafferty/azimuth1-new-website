@@ -3,7 +3,7 @@ published: true
 layout: post
 title: EnviMetric Data Insights from Over 85,000 Remediation Sites Across the United States
 subtitle: Growing our unique specialty in environmental data science.
-date: 2020-02-20 10:00:00
+date: 2020-02-20
 author: azimuth1_team
 folder: blog/assets/2020-02-20-envimetric-stats
 headerColor: '#030'

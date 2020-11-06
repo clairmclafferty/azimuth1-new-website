@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Massive building footprints data for TotalTopo
 subtitle: FIND software integrates Bing buildings into topo maps for SAR.
-date: 2018-07-18 10:00:00
+date: 2018-07-18
 author: jason_dalton
 folder: blog/assets/2018-07-18-bing-buildings-topo
 headerColor: '#000'

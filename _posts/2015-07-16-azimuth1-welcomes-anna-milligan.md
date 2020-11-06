@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Azimuth1 welcomes Anna Milligan to our team!
 subtitle: Adding great talent
-date: 2015-07-16 12:00:00
+date: 2015-07-16
 author: jason_dalton
 folder: blog/assets/2015-07-16-azimuth1-welcomes-anna-milligan
 headerColor: '#700'

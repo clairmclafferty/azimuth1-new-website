@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Azimuth1 welcomes Ryan Velazquez to our data science team
 subtitle: Growing our unique specialty in environmental data science.
-date: 2019-07-01 10:00:00
+date: 2019-07-01
 author: jason_dalton
 folder: blog/assets/2019-07-01-welcome-ryan
 headerColor: '#030'

@@ -3,21 +3,21 @@
 - text: Solutions
   submenu:
     - text: Environmental Sciences
-      url: /pages/environmental-sciences
+      url: /environmental-sciences
     - text: Public Safety
-      url: /pages/public-safety
+      url: /public-safety
     - text: National Security
-      url: /pages/national-security
+      url: /national-security
 - text: Company
-  url: /pages/about
+  url: /about
   submenu:
     - text: About
-      url: /pages/about
+      url: /about
     - text: Our Team
-      url: /pages/team
+      url: /team
     - text: Careers
-      url: /pages/careers
+      url: /careers
 - text: Blog
   url: /blog
 - text: Contact
-  url: /pages/contact
+  url: /contact

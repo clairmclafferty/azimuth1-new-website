@@ -37,7 +37,43 @@ title: Contact
         </div>
     </div>
 </section>
-
+<!-- contact-form -->
+<section class="contact-form pb-20 pt-20">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="contact-form-title">
+                    <h2>Let’s talk</h2>
+                    <p>If you have a tough problem, we will help you solve it. Request a consultation using the form below.  We'll show you the way we solve these problems and our proven approach.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <form id="contact-form" action="mail.php" class="contact-form" method="POST">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 mb-20">
+                            <input name="name" type="text" placeholder="Name">
+                        </div>
+                        <div class="col-xl-6 col-lg-6 mb-20">
+                            <input name="email" type="email" placeholder="Email">
+                        </div>
+                        <div class="col-xl-12 mb-20">
+                            <input name="subject" type="text" placeholder="Subject">
+                        </div>
+                        <div class="col-xl-12 mb-20">
+                            <textarea name="message" id="text-message" cols="30" rows="10" placeholder="Message*"></textarea>
+                        </div>
+                        <div class="col-xl-12 text-center">
+                            <button class="btn" type="submit">Send Mail</button>
+                        </div>
+                    </div>
+                </form>
+                <p class="ajax-response"></p>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- AgileCRM form -->
 <section class="contact-form pb-20 pt-20">
     <div class="container">
@@ -49,14 +85,14 @@ title: Contact
               </div>
           </div>
       </div>
-        <div class="row">
-          <div class="col-12 text-center">
-            <div id="azimuth1_6631493086871552" class="agile_crm_form_embed">
-              <span style="display:none">
-                Fill out my <a href="https://azimuth1.agilecrm.com/forms/6631493086871552">online form</a>
-              </span>
-            </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <div id="azimuth1_6631493086871552" class="agile_crm_form_embed">
+            <span style="display:none">
+              Fill out my <a href="https://azimuth1.agilecrm.com/forms/6631493086871552">online form</a>
+            </span>
           </div>
         </div>
       </div>
+    </div>
 </section>

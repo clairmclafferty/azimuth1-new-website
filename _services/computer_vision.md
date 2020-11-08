@@ -21,7 +21,7 @@ description: Our team can create state of the art computer vision applications u
 <div class="row">
     <div class="col-xl-6 col-lg-12">
         <div class="s-details-img mb-30">
-            <img src="{{site.baseurl}}/assets/img/service/3.jpg" alt="{{page.title}}">
+            <img src="{{site.baseurl}}/assets/img/services/globalpoints.png" alt="{{page.title}}">
         </div>
     </div>
     <div class="col-xl-6 col-lg-12">

@@ -2,7 +2,7 @@
 layout: featured
 title: Computer Vision AI
 icon: /assets/img/icons/computervision.svg
-image: /assets/img/services/brazil-ir-bw.png
+image: /assets/img/services/brazil-ir-bw.jpg
 description: Our team can create state of the art computer vision applications using Deep Neural Nets to achieve image classification, scene recognition, and object detection in images, video, and aerial footage.
 ---
 

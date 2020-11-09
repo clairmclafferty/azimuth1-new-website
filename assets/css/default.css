@@ -736,3 +736,11 @@
   width: 150px;
   height: 300px;
 }
+
+/* for scroll offset */
+a.anchor {
+  display: block;
+  position: relative;
+  top: -95px;
+  visibility: hidden;
+}

@@ -732,10 +732,7 @@
   opacity: 0.9;
 }
 
-.qr-headerImage {
-  width: 100px;
-}
-
 #qr-headerImage {
-  width: 98px;
+  width: 150px;
+  height: 300px;
 }

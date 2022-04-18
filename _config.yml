@@ -65,7 +65,7 @@ colors:
 
 fonts:
   #google_fonts: "https://fonts.googleapis.com/css2?family=Lora&family=Fira+Mono&family=Source+Sans+Pro:wght@300;400;600&display=swap"
-  google_fonts: "https://fonts.googleapis.com/css2?family=Lora&family=Fira+Mono&family=Poppins:wght@300;400;600&display=swap"
+  google_fonts: "https://fonts.googleapis.com/css2?family=Lora&family=Fira+Mono&family=Poppins:wght@300;400;600;800&display=swap"
   heading: "Poppins"
   base: "Poppins"
   monospace: "Fira Mono"
@@ -75,8 +75,8 @@ logo:
   logo_mobile: assets/images/logo/logo-mobile.png
   logo_invert: assets/images/logo/logo-invert.png
   logo_invert_mobile: assets/images/logo/logo-invert-mobile.png
-  logo_desktop_height: "30px"
-  logo_desktop_width: "132px"
+  logo_desktop_height: "249px"
+  logo_desktop_width: "1254px"
   logo_mobile_height: "30px"
   logo_mobile_width: "34px"
 

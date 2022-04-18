@@ -9,7 +9,7 @@ meta_title: Daybreak - Mission Focused
 hero:
   enabled: true
   heading: "Mission Focused"
-  sub_heading: "Daybreak is bringing better decisions through the power "
+  sub_heading: "Daybreak brings insights through the science of better decisions "
   text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: false

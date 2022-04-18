@@ -1,7 +1,7 @@
 # Jekyll Config
 baseurl: "/"
 permalink: pretty
-title: "Jekyll Advance"
+title: "Daybreak LLC"
 collections_dir: collections
 markdown: kramdown
 highlighter: rouge
@@ -56,17 +56,18 @@ defaults:
 
 # Theme Config
 google_analytics_id: ""
-enable_dark_mode: true
+enable_dark_mode: false
 enable_fixed_header: true
 
 colors:
-  primary: "#dc132c"
+  primary: "#002868"
   secondary: "#ff9c07"
 
 fonts:
-  google_fonts: "https://fonts.googleapis.com/css2?family=Lora&family=Fira+Mono&family=Source+Sans+Pro:wght@300;400;600&display=swap"
-  heading: "Source Sans Pro"
-  base: "Source Sans Pro"
+  #google_fonts: "https://fonts.googleapis.com/css2?family=Lora&family=Fira+Mono&family=Source+Sans+Pro:wght@300;400;600&display=swap"
+  google_fonts: "https://fonts.googleapis.com/css2?family=Lora&family=Fira+Mono&family=Poppins:wght@300;400;600&display=swap"
+  heading: "Poppins"
+  base: "Poppins"
   monospace: "Fira Mono"
 
 logo:

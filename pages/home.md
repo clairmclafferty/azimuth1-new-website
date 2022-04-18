@@ -1,15 +1,15 @@
 ---
 layout: home
 permalink: "/"
-title: "Jekyll Advance"
+title: "Daybreak - Mission Focused - "
 description: "Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
 header_transparent: true
-meta_title: Jekyll Advance - Premium Jekyll Theme
+meta_title: Daybreak - Mission Focused
 
 hero:
   enabled: true
-  heading: "Jekyll Advance"
-  sub_heading: "Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
+  heading: "Mission Focused"
+  sub_heading: "Daybreak is bringing better decisions through the power "
   text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: false

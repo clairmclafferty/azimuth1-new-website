@@ -11,7 +11,7 @@ hero:
   heading: "Mission Focused"
   sub_heading: "Daybreak brings insights through the science of better decisions "
   text_color: "#FFFFFF"
-  background_color: "#1d2830"
+  background_color: "#b5c1cf" #Daybreak grey
   background_gradient: false
   background_image: "/assets/images/home/unsplash-Lks7vei-eAg.jpeg"
   background_image_blend_mode: false # "overlay", "multiple", "screen"

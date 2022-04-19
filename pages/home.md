@@ -13,7 +13,7 @@ hero:
   text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: false
-  background_image: "/assets/images/home/unsplash-P1qyEf1g0HU.jpeg"
+  background_image: "/assets/images/home/unsplash-Lks7vei-eAg.jpeg"
   background_image_blend_mode: false # "overlay", "multiple", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: false
@@ -21,20 +21,20 @@ hero:
   buttons:
     enabled: true
     list:
-      - text: "Buy Now"
+      - text: "Learn about Daybreak"
         url: "https://www.zerostatic.io/theme/jekyll-advance/"
         external: true
         fa_icon: false
         size: large # "small", "normal", "large"
         outline: false
-        style: "primary" # "light", "dark", "primary"
-      - text: "Documentation"
-        url: "https://www.zerostatic.io/docs/jekyll-advance/v2.0/"
-        external: true
-        fa_icon: false
-        size: large
-        outline: true
-        style: "light"
+        style: "light" # "light", "dark", "primary"
+      #- text: "Documentation"
+      #  url: "https://www.zerostatic.io/docs/jekyll-advance/v2.0/"
+      #  external: true
+      #  fa_icon: false
+      #  size: large
+      #  outline: true
+      #  style: "light"
 
 services:
   enabled: true

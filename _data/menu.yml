@@ -1,29 +1,39 @@
 main:
-  - name: Home
-    url: /
-    weight: 1
-  - name: Services
-    url: /services/
+  - name: Capabilities
+    url: /capabilities/
     weight: 1
     child:
-      - name: "Web Development"
+      - name: "Full Stack Data Science"
         url: /services/web-development/
-      - name: "UX"
-        url: /services/user-experience/
-      - name: "Branding"
-        url: /services/branding/
-  - name: Projects
-    url: /projects/
+      - name: "Geospatial Analytics"
+        url: /services/geo-analytics/
+      - name: "Analytical Application Development"
+        url: /services/app-dev/
+      - name: "Intelligence Analysis"
+        url: /services/intel-analysis/
+      - name: "Mission Support"
+        url: /services/mission-support/
+  - name: Customers
+    url: /customers/
     weight: 2
+    child:
+      - name: "DOD"
+        url: /services/web-development/
+      - name: "Intelligence"
+        url: /services/geo-analytics/
+      - name: "Federal Civilian"
+        url: /services/app-dev/
+      - name: "Commercial"
+        url: /services/intel-analysis/
+  - name: Contracts
+    url: /contracts/
+    weight: 3
   - name: Blog
     url: /blog/
     weight: 4
   - name: About
     url: /about/
     weight: 5
-  - name: Buy Now
-    url: https://www.zerostatic.io/theme/jekyll-advance/
-    weight: 6
 footer_primary:
   - name: Home
     url: /

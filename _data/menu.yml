@@ -4,15 +4,15 @@ main:
     weight: 1
     child:
       - name: "Full Stack Data Science"
-        url: /capabilities/full-stack-data-science/
+        url: /capabilities/full-stack-data-science
       - name: "Geospatial Analytics"
-        url: /capabilities/geospatial-analytics/
+        url: /capabilities/geospatial-analytics
       - name: "Analytical Application Development"
-        url: /capabilities/analytical-application-development/
+        url: /capabilities/analytical-application-development
       - name: "Intelligence Analysis"
-        url: /capabilities/intelligence-analysis/
+        url: /capabilities/intelligence-analysis
       - name: "Mission Support"
-        url: /capabilities/mission-support/
+        url: /capabilities/mission-support
   - name: Customers
     url: /customers/
     weight: 2

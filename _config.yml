@@ -1,5 +1,6 @@
 # Jekyll Config
-baseurl: "/"
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
 permalink: pretty
 title: "Daybreak LLC"
 collections_dir: collections

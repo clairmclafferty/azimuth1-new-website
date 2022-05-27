@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <title>Bayesian updating for sensor fusion - Daybreak LLC</title>
+
+
+
+
+
+
+
+
+
+
+
+
+    <link rel="icon" href="/favicon.png">
+    <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Fira+Mono&family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <script>
+        localStorage.getItem('darkMode') === 'true' && document.documentElement.setAttribute('data-mode', 'dark');
+    </script>
+
+  </head>
+<body class="page page-post">
+
+<div class="menu-main-mobile" id="menu-main-mobile">
+  <ul class="menu">
+    
+      <li class="menu-item-Capabilities">
+        <a href="/capabilities/">Capabilities</a>
+      </li>
+    
+      <li class="menu-item-Customers">
+        <a href="/customers/">Customers</a>
+      </li>
+    
+      <li class="menu-item-Contracts">
+        <a href="/contracts/">Contracts</a>
+      </li>
+    
+      <li class="menu-item-Blog">
+        <a href="/blog/">Blog</a>
+      </li>
+    
+      <li class="menu-item-About">
+        <a href="/about/">About</a>
+      </li>
+    
+  </ul>
+</div>
+<div id="header" class='header header-fixed   '>
+  <div class="container">
+  <div class="logos">
+  <div class="logo">
+    <a href="/">
+      <img height="31px" width="157px" alt="Daybreak LLC Logo" src="/assets/images/logo/logo.png"/>
+    </a>
+  </div>
+  <div class="logo-invert">
+    <a href="/">
+      <img height="31px" width="157px" alt="Daybreak LLC Logo" src="/assets/images/logo/logo-invert.png"/>
+    </a>
+  </div>
+  <div class="logo-mobile">
+    <a href="/">
+      <img height="30px" width="34px" alt="Daybreak LLC Logo" src="/assets/images/logo/logo-mobile.png"/>
+    </a>
+  </div>
+  <div class="logo-invert-mobile">
+    <a href="/">
+      <img height="30px" width="34px" alt="Daybreak LLC Logo" src="/assets/images/logo/logo-invert-mobile.png"/>
+    </a>
+  </div>
+</div>
+
+  <div class="menu-main">
+  <ul>
+    
+      
+        <li class="menu-item-Capabilities">
+          <a href="/capabilities/">Capabilities</a>
+          <div class="dropdown">
+            <ul class="sub-menu">
+              
+                <li class="">
+                  <a href="/capabilities/full-stack-data-science/">Full Stack Data Science</a>
+                </li>
+              
+                <li class="">
+                  <a href="/capabilities/geospatial-analytics/">Geospatial Analytics</a>
+                </li>
+              
+                <li class="">
+                  <a href="/capabilities/analytical-application-development/">Analytical Application Development</a>
+                </li>
+              
+                <li class="">
+                  <a href="/capabilities/intelligence-analysis/">Intelligence Analysis</a>
+                </li>
+              
+                <li class="">
+                  <a href="/capabilities/mission-support/">Mission Support</a>
+                </li>
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="menu-item-Customers">
+          <a href="/customers/">Customers</a>
+          <div class="dropdown">
+            <ul class="sub-menu">
+              
+                <li class="">
+                  <a href="/capabilities/dod/">DOD</a>
+                </li>
+              
+                <li class="">
+                  <a href="/capabilities/intelligence-analysis/">Intelligence</a>
+                </li>
+              
+                <li class="">
+                  <a href="/capabilities/federal-civilian/">Federal Civilian</a>
+                </li>
+              
+                <li class="">
+                  <a href="/capabilities/commercial/">Commercial</a>
+                </li>
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        
+        <li class="">
+          <a href="/contracts/">Contracts</a>
+        </li>
+      
+    
+      
+        
+        <li class="">
+          <a href="/blog/">Blog</a>
+        </li>
+      
+    
+      
+        
+        <li class="">
+          <a href="/about/">About</a>
+        </li>
+      
+    
+  </ul>
+</div>
+
+  <div class="hamburger-trigger" id="toggle-menu-main-mobile">
+  <button class="hamburger">Menu</button>
+</div>
+</div>
+
+</div>
+<div id="wrapper" class="wrapper">     
+  
+  
+
+
+
+
+
+
+
+
+<div class="strip strip-border-bottom title">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-12 mb-4col-md-8 ">
+
+        
+
+        
+          <div class="title-date">
+            
+            
+                7th
+            
+            of March, 2014
+          </div>
+        
+
+        <h1>Bayesian updating for sensor fusion</h1>
+        
+
+      </div>
+
+      
+      <div class="col-12 mt-2 mb-0 col-md-10 ">
+          <img width="1280" height="720"  alt="Bayesian updating for sensor fusion"  class="img-fluid shadow rounded" src="/blog/assets/2014-03-07-sensorbayes/header.png"/>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+
+
+<div class="strip">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8">
+        
+          
+            
+
+
+
+
+<div class="author author-row">
+  
+    <div class="author-image">
+      <img src="/assets/img/team/jason-dalton-photo.jpg" alt="Jason Dalton"/>
+    </div>
+  
+
+  
+    <div class="author-content">
+      <span class="author-name">Jason Dalton</span>
+      <span class="author-job">Founder and CEO</span>
+    </div>
+  
+</div>
+          
+        
+        <div class="content"><p>Bayesian statistics are useful for handling uncertainty of outcomes in many situations. With the growth of small-sats, the latest generation of small and relatively cheap sensors for Earth imaging, the precision and resolution is far less than the best high-end commercial imaging, so there it becomes even more important to understand how to quantify and account for errors when detecting objects in these images. In the course of teaching spatial statistics for GeoINT, I’ve found that it’s useful to have a good grasp of the concept of probability of detection, false positives, and how to bring that information together mathematically to estimate the posterior probabilities for detecting things from space.</p>
+
+<h2 id="quick-start-guide">Quick Start Guide</h2>
+
+<p>The table below is a calculator for computing the actual probability of a detected object from a sensor, accounting for multiple looks at an object, and for positive and negative results.  You can edit the values for the starting, or prior, probability, the sensor detection accuracy, and whether there was a detection or not [True or False]</p>
+
+<p>The probablility updates come from Bayes Theorem, which allows us to update probabilities based on new evidence.</p>
+
+<p>\[  P[target | evidence] = \frac{P[evidence | target] \times P[target]}{P[evidence]}
+\]</p>
+
+<p>Click the “Calculate” button to generate probabilities updated through Bayesian reasoning after 10 simulated sensor observations. You can change the values of each observation’s Sensor Accuracy and the resulting detection reading from the sensor.</p>
+<html>
+<script type="text/javascript" src="//www.google.com/jsapi"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+<table id="assumptions" border="1">
+<tr>
+<td>Starting probability P[H]:</td>
+<td contenteditable="true">0.0001</td>
+</tr>
+</table>
+
+<h3>Bayesian Sensor Fusion Calculator</h3>
+
+<table id="dataTable" border="1">
+<tr>
+<th>Observation:</th>
+<th>Sensor Accuracy [0.0 - 1.0]</th>
+<th>Sensor Reading [True, False]</th>
+<th>Updated Probability</th>
+</tr>
+<tr>
+<td>1</td>
+<td contenteditable="true" min="0.0" max="1.0">0.9</td>
+<td>
+<select>
+  <option value="True">True</option>
+  <option value="False">False</option>
+</select>
+</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2</td>
+<td contenteditable="true">0.9</td>
+<td>
+<select>
+  <option value="True">True</option>
+  <option value="False">False</option>
+</select>
+</td>
+<td>0</td>
+</tr>
+<tr>
+<td>3</td>
+<td contenteditable="true">0.9</td>
+<td>
+<select>
+  <option value="True">True</option>
+  <option value="False">False</option>
+</select>
+</td>
+<td>0</td>
+</tr>
+<tr>
+<td>4</td>
+<td contenteditable="true">0.9</td>
+<td>
+<select>
+  <option value="True">True</option>
+  <option value="False">False</option>
+</select>
+</td>
+<td>0</td>
+</tr>
+<tr>
+<td>5</td>
+<td contenteditable="true">0.9</td>
+<td>
+<select>
+  <option value="True">True</option>
+  <option value="False">False</option>
+</select>
+</td>
+<td>0</td>
+</tr>
+<tr>
+<td>6</td>
+<td contenteditable="true">0.9</td>
+<td>
+<select>
+  <option value="True">True</option>
+  <option value="False">False</option>
+</select>
+</td>
+<td>0</td>
+</tr>
+<tr>
+<td>7</td>
+<td contenteditable="true">0.9</td>
+<td>
+<select>
+  <option value="True">True</option>
+  <option value="False">False</option>
+</select>
+</td>
+<td>0</td>
+</tr>
+<tr>
+<td>8</td>
+<td contenteditable="true">0.9</td>
+<td>
+<select>
+  <option value="True">True</option>
+  <option value="False">False</option>
+</select>
+</td>
+<td>0</td>
+</tr>
+<tr>
+<td>9</td>
+<td contenteditable="true">0.9</td>
+<td>
+<select>
+  <option value="True">True</option>
+  <option value="False">False</option>
+</select>
+</td>
+<td>0</td>
+</tr>
+<tr>
+<td>10</td>
+<td contenteditable="true">0.9</td>
+<td>
+<select>
+  <option value="True">True</option>
+  <option value="False">False</option>
+</select>
+</td>
+<td>0</td>
+</tr>
+</table>
+
+<form>
+<input type="button" onclick="bayesUpdates()" value="Calculate" />
+</form>
+
+<div id="visualization" style="width: 600px; height: 400px;"></div>
+</html>
+
+<h2 id="how-to-use-the-calculator">How to use the calculator</h2>
+
+<p>This page calculates the updated probability of an anomaly or target by updating the probability to account for new evidence coming from a sensor. We have provided some example numbers for the Starting Probability and the Probability of Detection of your sensors - you will need to enter your own values for your work. The calculator will then provide updated probabilities for up to 10 observations from any sensor POD you provide. You can also specify when a sensor gives a reading of ‘False’ or ‘Non-detect’. For sensors that provide a measurement or concentration, you should use a threshold and for all sensor readings above your threshold, indicate a reading of ‘True’.</p>
+
+<html>
+
+<script>
+      google.load('visualization', '1', {packages: ['corechart']});
+
+
+function bayesUpdates(){
+var P=document.getElementById('assumptions').rows[0].cells[1].innerHTML;
+var x=document.getElementById('dataTable');
+
+  for (var i=1;i<11;i++){
+    var reading = x.rows[i].cells[2].children[0].selectedIndex;
+    var pod = x.rows[i].cells[1].innerHTML;
+    if (reading == 1) {
+        pod = 1-pod;
+    }
+    var Pe = P*pod + (1-P)*(1-pod);
+    x.rows[i].cells[3].innerHTML=(P * pod / Pe).toFixed(7);  //Baysian update
+    P = (P * pod / Pe);  //set Prior P to the newly calculated estimate
+  }
+}
+
+function drawVisualization() {
+  // Create and populate the data table.
+  var data = google.visualization.arrayToDataTable([
+    [' ', ' '],
+    ['1',   .0008989],
+    ['2',   .0080357],
+    ['3',   .0679530],
+    ['4',   .3961956],
+    ['5',   .8551877],
+    ['6',   .9815326],
+    ['7',   .9979138],
+    ['8',   .9997678],
+    ['9',   .9999742],
+    ['10',  .9999971]
+  ]);
+
+// Create and populate the data table.
+        var options = {
+          title: 'Updated probability',
+          curveType: "function",
+          width: 600,
+          height: 400,
+          vAxis: {maxValue: 1},
+          legend: {position: 'none'}
+        };
+
+  // Create and draw the visualization.
+      new google.visualization.LineChart(document.getElementById('visualization')).
+          draw(data, options);
+      };
+      google.setOnLoadCallback(drawVisualization);
+</script>
+
+
+
+
+
+
+
+</html>
+
+<h2 id="whats-this-all-about">What’s this all about?</h2>
+
+<p>All sensors and detectors used in environmental site characterization or GeoINT have an inherent probability of detection that is based on the attributes of the sensor. How sensitive it is, the internal electrical noise dampening, environmental factors, and operator proficiency all lead to an uncertain result when a sensor indicates the presence of some target of interest. This can be generalized to any sensor or anomaly detection system, whether automated, or human driven. There is some chance that the system will indicate the presence of an anomaly when it doesn’t really exist. That is called a false positive, or a Type I error. This uncertainty in the results, plus the rarity of the target compounds means that even with a positive sensor response, the probability that the target is actually there can still be quite low. Many people find this difficult to understand, and while there are many descriptions and explanations of Bayes Theorem online, I find this calculator lets you explore different settings of your sensors and results, leading to a better understanding of how to apply Bayes Theorem. Some good exercises to try:</p>
+
+<ul>
+  <li>Set a Sensor POD value of 0.5 and observe the effect this has on the Updated Probability.</li>
+  <li>Set a Sensor Reading to False and observe the effect this has on the Updated Probability.</li>
+</ul>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      
+        <div class="col-12 col-md-4 col-lg-2 mb-gutter">
+          
+            <div class="footer-heading">Daybreak</div>
+          
+          
+<div class="menu-footer">
+  <ul>
+    
+      <li class="">
+        <a href="/">Home</a>
+      </li>
+    
+      <li class="">
+        <a href="/capabilities/">Capabilities</a>
+      </li>
+    
+      <li class="">
+        <a href="/projects/">Projects</a>
+      </li>
+    
+      <li class="">
+        <a href="/team/">Team</a>
+      </li>
+    
+  </ul>
+</div>
+
+        </div>
+      
+      
+        <div class="col-12 col-md-4 col-lg-2 mb-gutter">
+          
+            <div class="footer-heading">About</div>
+          
+          
+<div class="menu-footer">
+  <ul>
+    
+      <li class="">
+        <a href="/blog/">Blog</a>
+      </li>
+    
+      <li class="">
+        <a href="/about/">About</a>
+      </li>
+    
+  </ul>
+</div>
+
+        </div>
+      
+      
+        <div class="col-12 col-md-4 col-lg-2 mb-gutter">
+          
+            <div class="footer-heading">Support</div>
+          
+          
+<div class="menu-footer">
+  <ul>
+    
+      <li class="">
+        <a href="/contact/">Contact</a>
+      </li>
+    
+      <li class="">
+        <a href="https://www.zerostatic.io/theme/jekyll-advance/">Buy Now</a>
+      </li>
+    
+  </ul>
+</div>
+
+        </div>
+      
+      
+        <div class="col-12 col-md-12 col-lg-5 offset-lg-1 mb-gutter-half">
+          <div class="footer-heading">Contact</div>
+          
+
+<div class="contact">
+  
+    <div class="contact-email">
+      <strong>Email:</strong>
+      <a href="mailto:contact@daybreak-llc.com">contact@daybreak-llc.com</a>
+    </div>
+  
+  
+    <div class="contact-phone">
+      <strong>Phone:</strong>
+      703-618-8866</div>
+  
+  
+  
+    <div class="contact-address">
+      <strong>Address:</strong>
+      1751 Pinnacle Dr, McLean VA 22102
+      
+        <a href="https://goo.gl/maps/c4WAN7fiRycaH1Gh7" target="_blank" rel="noreferrer">(View Map)</a>
+      
+    </div>
+  
+</div>
+        </div>
+      
+    </div>
+    
+      <div class="row">
+        <div class="col-12 d-flex align-items-center">
+          
+  <div class="social" id="social">
+    
+      <a href="https://www.zerostatic.io" target="blank" title="Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+    
+      <a href="https://github.com/Azimuth1" target="blank" title="Github">
+        <i class="fab fa-github"></i>
+      </a>
+    
+      <a href="https://www.zerostatic.io" target="blank" title="Slack">
+        <i class="fab fa-slack"></i>
+      </a>
+    
+      <a href="https://www.linkedin.com/company/daybreakllc/" target="blank" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    
+      <a href="https://www.zerostatic.io" target="blank" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+    
+  </div>
+
+        </div>
+      </div>
+    
+  </div>
+</div>
+
+<div class="bottom">
+  <div class="container relative">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-auto">
+        
+          <div class="menu-bottom">
+  <ul>
+    
+      <li class="menu-item-Privacy Policy">
+        <a href="/privacy-policy/">Privacy Policy</a>
+      </li>
+    
+      <li class="menu-item-Terms and Conditions">
+        <a href="/terms-and-conditions/">Terms and Conditions</a>
+      </li>
+    
+  </ul>
+</div>
+        
+        
+          <div class="copyright">© 2022 Daybreak, LLC.</div>
+        
+      </div>
+      <div class="col-auto">
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="/assets/js/scripts.js"></script>
+<script type="text/javascript" src="/assets/js/header.js"></script>
+<script type="text/javascript" src="/assets/js/hamburger.js"></script>
+<script type="text/javascript" src="/assets/js/darkModeSwitch.js"></script>
+
+
+
+</body>
+</html>

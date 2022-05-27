@@ -4,27 +4,27 @@ main:
     weight: 1
     child:
       - name: "Full Stack Data Science"
-        url: /services/web-development/
+        url: /capabilities/full-stack-data-science/
       - name: "Geospatial Analytics"
-        url: /services/geo-analytics/
+        url: /capabilities/geospatial-analytics/
       - name: "Analytical Application Development"
-        url: /services/app-dev/
+        url: /capabilities/analytical-application-development/
       - name: "Intelligence Analysis"
-        url: /services/intel-analysis/
+        url: /capabilities/intelligence-analysis/
       - name: "Mission Support"
-        url: /services/mission-support/
+        url: /capabilities/mission-support/
   - name: Customers
     url: /customers/
     weight: 2
     child:
       - name: "DOD"
-        url: /services/web-development/
+        url: /capabilities/dod/
       - name: "Intelligence"
-        url: /services/geo-analytics/
+        url: /capabilities/intelligence-analysis/
       - name: "Federal Civilian"
-        url: /services/app-dev/
+        url: /capabilities/federal-civilian/
       - name: "Commercial"
-        url: /services/intel-analysis/
+        url: /capabilities/commercial/
   - name: Contracts
     url: /contracts/
     weight: 3
@@ -38,8 +38,8 @@ footer_primary:
   - name: Home
     url: /
     weight: 1
-  - name: Services
-    url: /services/
+  - name: Capabilities
+    url: /capabilities/
     weight: 2
   - name: Projects
     url: /projects/

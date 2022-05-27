@@ -1,15 +1,15 @@
 ---
 layout: list
 collection: "services"
-title: Services
-description: "We deliver a complete range of digital services."
-permalink: "/services/"
+title: Capabilities
+description: "Our expertise combined with our proven methods for investigating and solving complex problems is why we have succeeded in improving the lives and work of our customers. We strive for daily improvement in ourselves and our work. It is this culture of curiosity and improvement that makes us who we are."
+permalink: "/capabilities/"
 header_transparent: false
 
 hero:
   enabled: false
   heading: "Services"
-  sub_heading: "We deliver a complete range of digital services."
+  sub_heading: "Our expertise combined with our proven methods for investigating and solving complex problems is why we have succeeded in improving the lives and work of our customers. We strive for daily improvement in ourselves and our work. It is this culture of curiosity and improvement that makes us who we are."
   text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: false

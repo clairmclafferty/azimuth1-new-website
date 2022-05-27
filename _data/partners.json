@@ -1,32 +1,32 @@
 [
   {
-    "title": "Jekyll",
-    "image": "assets/images/partners/jekyll-mark.png",
-    "url": "https://www.zerostatic.io"
+    "title": "DHS",
+    "image": "assets/img/clients/logo-dhs.png",
+    "url": "#"
   },
   {
-    "title": "Netlify",
-    "image": "assets/images/partners/netlify.png",
-    "url": "https://www.zerostatic.io"
+    "title": "NFS",
+    "image": "assets/img/clients/logo-nsf-100.png",
+    "url": "#"
   },
   {
     "title": "Scss",
-    "image": "assets/images/partners/sass.png",
-    "url": "https://www.zerostatic.io"
+    "image": "assets/img/clients/logo-kleinfelder.png",
+    "url": "#"
   },
   {
-    "title": "Mailchimp",
-    "image": "assets/images/partners/mailchimp.svg",
-    "url": "https://www.zerostatic.io"
+    "title": "doe",
+    "image": "assets/img/clients/logo-doe.jpg",
+    "url": "#"
   },
   {
-    "title": "Github",
-    "image": "assets/images/partners/github.svg",
-    "url": "https://www.zerostatic.io"
+    "title": "ford",
+    "image": "assets/img/clients/logo-ford.png",
+    "url": "#"
   },
   {
-    "title": "Algolia",
-    "image": "assets/images/partners/algolia.svg",
-    "url": "https://www.zerostatic.io"
+    "title": "NGA",
+    "image": "assets/img/clients/logo-nga-100.png",
+    "url": "#"
   }
 ]

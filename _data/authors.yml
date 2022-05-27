@@ -1,12 +1,25 @@
-sage_kirk:
-  title: "Sage Kirk"
-  name: "Sage Kirk"
-  job: "Co-founder & CEO"
-  image: "assets/images/team/sage-kirk.jpg"
-  bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum arcu vitae elementum curabitur vitae nunc sed. Tortor at risus viverra adipiscing at in."
-mike_vance:
-  title: "Mike Vance"
-  name: "Mike Vance"
-  job: "Developer Relations"
-  image: "assets/images/team/mike-vance.jpg"
-  bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum arcu vitae elementum curabitur vitae nunc sed. Tortor at risus viverra adipiscing at in."
+jason_dalton:
+  title: "Jason Dalton"
+  name: "Jason Dalton"
+  job: "Founder and CEO"
+  image: "assets/img/team/jason-dalton-photo.jpg"
+  bio: ""
+daybreak_team:
+  title: "Daybreak Team"
+  name: "Daybreak Team"
+  job: "Staff"
+  image: "assets/img/team/kyle-kalwarski-photo.jpg"
+  bio: "" 
+anna_harrington:
+  title: "Anna Harrington"
+  name: "Anna Harrington"
+  job: "Environmental Program Manager"
+  image: "assets/img/team/anna-harrington-photo.jpg"
+  bio: ""
+robert_sellers:
+  title: "Robert Sellers"
+  name: "Robert Sellers"
+  job: "Environmental Program Manager"
+  image: "assets/img/team/anna-harrington-photo.jpg"
+  bio: ""
+ 

@@ -11,13 +11,13 @@ hero:
   heading: "Mission Focused"
   sub_heading: "Daybreak brings insights through the science of better decisions "
   text_color: "#FFFFFF"
-  background_color: "#b5c1cf" #Daybreak grey
+  background_color: "#002868" #Daybreak Primary
   background_gradient: false
-  background_image: "/assets/images/home/unsplash-Lks7vei-eAg.jpeg"
-  background_image_blend_mode: false # "overlay", "multiple", "screen"
+  background_image: "https://source.unsplash.com/Lks7vei-eAg/1600x560"
+  background_image_blend_mode: "overlay" # "overlay", "multiple", "screen"
   fullscreen_mobile: true
-  fullscreen_desktop: false
-  height: false # "700px"
+  fullscreen_desktop: true
+  height: "700px" # "700px", false
   buttons:
     enabled: true
     list:
@@ -84,7 +84,7 @@ partners:
   sort: "weight" # 'date'
 
 projects:
-  enabled: true
+  enabled: false
   heading: "Projects"
   sub_heading: "View a portfolio of our projects and recent work."
   limit: 2

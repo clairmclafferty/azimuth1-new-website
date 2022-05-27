@@ -85,7 +85,7 @@ body_classes: page-home
   {% assign partners_limit = page.partners.limit | default: 4 %}
   {% assign partners_sort = page.partners.sort | default: 'weight' %}
   {% if partners.size > 0 %}
-    <div class="strip strip-base pt-0 partners">
+    <div class="strip strip-base partners">
       <div class="container">
         <div class="row justify-content-center align-items-center">
           {% for partner in partners limit: partners_limit %}

@@ -2,7 +2,7 @@
 layout: blog
 title: Blog
 description: "The latest news and opinions"
-permalink: "/blog/"
+permalink: "/blog"
 header_transparent: false
 pagination:
   enabled: true

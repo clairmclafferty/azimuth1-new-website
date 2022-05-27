@@ -18,53 +18,50 @@ main:
     weight: 2
     child:
       - name: "DOD"
-        url: /capabilities/dod/
+        url: /capabilities/dod
       - name: "Intelligence"
-        url: /capabilities/intelligence-analysis/
+        url: /capabilities/intelligence-analysis
       - name: "Federal Civilian"
-        url: /capabilities/federal-civilian/
+        url: /capabilities/federal-civilian
       - name: "Commercial"
-        url: /capabilities/commercial/
+        url: /capabilities/commercial
   - name: Contracts
-    url: /contracts/
+    url: /contracts
     weight: 3
   - name: Blog
-    url: /blog/
+    url: /blog
     weight: 4
   - name: About
-    url: /about/
+    url: /about
     weight: 5
 footer_primary:
   - name: Home
     url: /
     weight: 1
   - name: Capabilities
-    url: /capabilities/
+    url: /capabilities
     weight: 2
   - name: Projects
-    url: /projects/
+    url: /projects
     weight: 3
   - name: Team
-    url: /team/
+    url: /team
     weight: 4
 footer_secondary:
   - name: Blog
-    url: /blog/
+    url: /blog
     weight: 1
   - name: About
-    url: /about/
+    url: /about
     weight: 2
 footer_tertiary:
   - name: Contact
-    url: /contact/
+    url: /contact
     weight: 1
-  - name: Buy Now
-    url: https://www.zerostatic.io/theme/jekyll-advance/
-    weight: 2
 bottom:
   - name: Privacy Policy
-    url: /privacy-policy/
+    url: /privacy-policy
     weight: 3
   - name: Terms and Conditions
-    url: /terms-and-conditions/
+    url: /terms-and-conditions
     weight: 4

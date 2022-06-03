@@ -3,15 +3,15 @@ layout: home
 permalink: "/"
 title: "Daybreak - Mission Focused - "
 description: "Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
-header_transparent: true
+header_transparent: false
 meta_title: Daybreak - Mission Focused
 
 hero:
   enabled: true
   heading: "Mission Focused"
   sub_heading: "Daybreak brings insights through the science of better decisions "
-  text_color: "#FFFFFF"
-  background_color: "#002868" #Daybreak Primary
+  text_color: "#002868"
+  background_color: "#c5ccd5" #Daybreak Primary
   background_gradient: false
   background_image: "https://source.unsplash.com/Lks7vei-eAg/1600x560"
   background_image_blend_mode: "overlay" # "overlay", "multiple", "screen"
@@ -27,7 +27,7 @@ hero:
         fa_icon: false
         size: large # "small", "normal", "large"
         outline: false
-        style: "light" # "light", "dark", "primary"
+        style: "primary" # "light", "dark", "primary"
       #- text: "Documentation"
       #  url: "https://www.zerostatic.io/docs/jekyll-advance/v2.0/"
       #  external: true

@@ -3,7 +3,7 @@ layout: basic
 title: "About Us"
 date: 2018-11-28T15:15:34+10:00
 header_transparent: false
-permalink: "/about/"
+permalink: "/about"
 description: "We aim to see the world more clearly through advanced analytics. Our work with energy, environmental, and public safety clients has shown that bringing modern data analytics and visualization into business processes helps everyone make smarter resource allocation decisions."
 image: "assets/img/team/team-collage.jpg"
 

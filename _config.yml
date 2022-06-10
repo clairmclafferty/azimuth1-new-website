@@ -114,7 +114,7 @@ enable_breadcrumbs_services: true
 enable_sidebar_projects: false
 enable_breadcrumbs_projects: true
 
-enable_sidebar_products: false
+enable_sidebar_products: true
 enable_breadcrumbs_products: true
 
 # Plugins Config

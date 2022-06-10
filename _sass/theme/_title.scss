@@ -16,6 +16,8 @@
   }
   p {
     @extend .h3;
+    margin-top: 16px;
+    font-size: 18px;
   }
   img {
     border-radius: $border-radius;

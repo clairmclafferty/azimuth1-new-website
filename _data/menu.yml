@@ -17,7 +17,7 @@ main:
       - name: "Mission Support"
         url: /capabilities/mission-support
   - name: Customers
-    url: /customers/
+    url: /#!/
     weight: 3
     child:
       - name: "DOD"
@@ -32,10 +32,10 @@ main:
     url: /contracts
     weight: 4
   - name: Products
-    url: /products
+    url: /products/
     weight: 5  
   - name: Blog
-    url: /blog
+    url: /blog/
     weight: 6
 
 footer_primary:
@@ -45,8 +45,8 @@ footer_primary:
   - name: Capabilities
     url: /capabilities
     weight: 2
-  - name: Projects
-    url: /projects
+  - name: Products
+    url: /products
     weight: 3
   - name: Team
     url: /team

@@ -1,7 +1,10 @@
 main:
+  - name: About
+    url: /about
+    weight: 1
   - name: Capabilities
     url: /capabilities/
-    weight: 1
+    weight: 2
     child:
       - name: "Full Stack Data Science"
         url: /capabilities/full-stack-data-science
@@ -15,7 +18,7 @@ main:
         url: /capabilities/mission-support
   - name: Customers
     url: /customers/
-    weight: 2
+    weight: 3
     child:
       - name: "DOD"
         url: /capabilities/dod
@@ -27,13 +30,14 @@ main:
         url: /capabilities/commercial
   - name: Contracts
     url: /contracts
-    weight: 3
+    weight: 4
+  - name: Products
+    url: /products
+    weight: 5  
   - name: Blog
     url: /blog
-    weight: 4
-  - name: About
-    url: /about
-    weight: 5
+    weight: 6
+
 footer_primary:
   - name: Home
     url: /

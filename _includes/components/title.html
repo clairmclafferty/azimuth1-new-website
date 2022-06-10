@@ -9,7 +9,7 @@
 
 <div class="strip strip-border-bottom title">
   <div class="container">
-    <div class="row {% if align == 'center' %}justify-content-center text-center{% endif %}">
+    <div class="row align-items-center {% if align == 'center' %}justify-content-center text-center{% endif %}">
       <div class="col-12 {% if align == 'center' and image %}mb-4{% endif %}{% if align == 'center' %}col-md-8{% else %}col-md-6{% endif %} {% if align == 'left' %}order-1{% elsif align == 'right' %}order-2{% elsif align == 'center' %}{% endif %}">
 
         {% if icon and icon != '' %}

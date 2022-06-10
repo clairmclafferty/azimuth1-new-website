@@ -19,6 +19,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  products:
+    output: true
+    permalink: /:collection/:path/    
   team:
     output: true
     permalink: /:collection/:path/
@@ -37,6 +40,11 @@ defaults:
       type: projects
     values:
       layout: project
+  - scope:
+      path: ""
+      type: products
+    values:
+      layout: product      
   - scope:
       path: ""
       type: posts
@@ -105,6 +113,9 @@ enable_sidebar_services: true
 enable_breadcrumbs_services: true
 enable_sidebar_projects: false
 enable_breadcrumbs_projects: true
+
+enable_sidebar_products: false
+enable_breadcrumbs_products: true
 
 # Plugins Config
 plugins:

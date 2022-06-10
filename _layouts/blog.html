@@ -4,30 +4,30 @@ body_classes: page-blog
 ---
 
 {% if page.hero.enabled %}
-  {% include components/hero.html 
-    heading=page.hero.heading
-    sub_heading=page.hero.sub_heading
-    background_image=page.hero.background_image
-    background_image_blend_mode=page.hero.background_image_blend_mode
-    background_color=page.hero.background_color
-    background_gradient=page.hero.background_gradient
-    text_color=page.hero.text_color
-    fullscreen_mobile=page.hero.fullscreen_mobile
-    fullscreen_desktop=page.hero.fullscreen_desktop
-    height=page.hero.height
-    buttons=page.hero.buttons
-  %}
+{% include components/hero.html
+heading=page.hero.heading
+sub_heading=page.hero.sub_heading
+background_image=page.hero.background_image
+background_image_blend_mode=page.hero.background_image_blend_mode
+background_color=page.hero.background_color
+background_gradient=page.hero.background_gradient
+text_color=page.hero.text_color
+fullscreen_mobile=page.hero.fullscreen_mobile
+fullscreen_desktop=page.hero.fullscreen_desktop
+height=page.hero.height
+buttons=page.hero.buttons
+%}
 {% else %}
-  {% include components/title.html
-    fa_icon=page.fa_icon
-    icon=page.icon
-    title=page.title
-    description=page.description
-    image=page.image
-  %}
+{% include components/title.html
+fa_icon=page.fa_icon
+icon=page.icon
+title=page.title
+description=page.description
+image=page.image
+%}
 {% endif %}
 
-{% assign post_pages = site.posts  %}
+{% assign post_pages = site.posts %}
 
 <div class="strip strip-base">
   <div class="container">
@@ -35,29 +35,74 @@ body_classes: page-blog
 
       <div class="col-12 col-lg-8">
 
-        <div class="row">
+        <div class="row infinite-scroll-posts opacity">
           {% for post in site.posts %}
-            <div class="col-12 mb-3 mb-md-5">
-              {% include cards/card.html
-                style="row"
-                date=post.date
-                title=post.title
-                description=post.description 
-                thumbnail=post.thumbnail 
-                url=post.url
-                authors=post.authors
-                categories=post.categories
-                show_read_more=false
-              %}
-            </div>
+          <div
+            class="col-12 mb-3 mb-md-5 make-node-list{% if forloop.index > 5 %} delete-element{% endif %}">
+            {% include cards/card.html
+            style="row"
+            date=post.date
+            title=post.title
+            description=post.description
+            thumbnail=post.thumbnail
+            url=post.url
+            authors=post.authors
+            categories=post.categories
+            show_read_more=false
+            %}
+          </div>
           {% endfor %}
         </div>
 
-        <div class="row justify-content-center">
+
+
+        <div class="row justify-content-center loadmore-btn">
           <div class="col-auto">
-            {% include blocks/paginator.html %}
+
+            <div class="row">
+              <div class="col-md-12 mx-auto">
+                <button class="btn btn-light mb-2 w-100 az-loadmore">
+                  Load More
+                </button>
+              </div>
+            </div>
           </div>
         </div>
+
+        <script>
+
+          let myNodelist = $(".make-node-list");
+
+          $('.delete-element').remove();
+          $('.infinite-scroll-posts').removeClass('opacity');
+
+          let per_page = 5;
+
+          if (myNodelist.length <= per_page) {
+            $('.loadmore-btn').remove();
+          }
+
+          $('.az-loadmore').on('click', function () {
+
+            $('.az-loadmore').text('Loading..');
+            let splicePosts = myNodelist.splice(per_page, per_page);
+
+            $('.make-node-list').removeClass('delete-element');
+
+            setTimeout(function () {
+
+              splicePosts.forEach((post) => {
+                $('.infinite-scroll-posts').append(post);
+              });
+
+              if (myNodelist.length <= per_page) {
+                $('.loadmore-btn').remove();
+              }
+              $('.az-loadmore').text('Load More');
+            }, 1000);
+          });
+
+        </script>
 
       </div>
 
@@ -66,14 +111,14 @@ body_classes: page-blog
           <h5>Categories</h5>
           <ul>
             {% for category in site.categories %}
-              {% capture category_name %}
-                {{ category | first }}
-              {% endcapture %}
-              <li>
-                <a href="/category/{{ category_name | slugify }}">{{ category_name | camelcase }}</a>
-                <span>
-                  ({{ category[1].size }})</span>
-              </li>
+            {% capture category_name %}
+            {{ category | first }}
+            {% endcapture %}
+            <li>
+              <a href="/category/{{ category_name | slugify }}">{{ category_name | camelcase }}</a>
+              <span>
+                ({{ category[1].size }})</span>
+            </li>
             {% endfor %}
           </ul>
         </div>

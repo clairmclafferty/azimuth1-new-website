@@ -40,4 +40,4 @@ function initDarkMode() {
   }
 }
 
-initDarkMode();
+// initDarkMode();

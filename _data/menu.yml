@@ -33,9 +33,9 @@ main:
     weight: 4
   - name: Products
     url: /products/
-    weight: 5  
+    weight: 5
   - name: Blog
-    url: /blog/
+    url: /blog
     weight: 6
 
 footer_primary:

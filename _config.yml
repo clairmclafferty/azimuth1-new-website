@@ -21,7 +21,7 @@ collections:
     permalink: /:collection/:path/
   products:
     output: true
-    permalink: /:collection/:path/    
+    permalink: /:collection/:path/
   team:
     output: true
     permalink: /:collection/:path/
@@ -44,7 +44,7 @@ defaults:
       path: ""
       type: products
     values:
-      layout: product      
+      layout: product
   - scope:
       path: ""
       type: posts
@@ -85,7 +85,7 @@ logo:
   logo_invert: assets/images/logo/logo-invert.png
   logo_invert_mobile: assets/images/logo/logo-invert-mobile.png
   logo_desktop_height: "31px"
-  logo_desktop_width: "157px"
+  logo_desktop_width: "284px"
   logo_mobile_height: "30px"
   logo_mobile_width: "34px"
 

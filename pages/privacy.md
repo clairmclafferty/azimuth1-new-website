@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 date: 2021-24-01
-layout: basic
+layout: basic-full
 permalink: "/privacy-policy/"
 ---
 

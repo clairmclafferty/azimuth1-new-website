@@ -16,6 +16,9 @@ collections:
   services:
     output: true
     permalink: /:collection/:path/
+  customers:
+    output: true
+    permalink: /:collection/:path/   
   projects:
     output: true
     permalink: /:collection/:path/
@@ -45,6 +48,11 @@ defaults:
       type: products
     values:
       layout: product
+  - scope:
+      path: ""
+      type: customers
+    values:
+      layout: customer      
   - scope:
       path: ""
       type: posts

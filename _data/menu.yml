@@ -17,17 +17,17 @@ main:
       - name: "Mission Support"
         url: /capabilities/mission-support
   - name: Customers
-    url: /#!/
+    url: /customers
     weight: 3
     child:
       - name: "DOD"
-        url: /capabilities/dod
+        url: /customers/dod
       - name: "Intelligence"
-        url: /capabilities/intelligence-analysis
+        url: /customers/intelligence
       - name: "Federal Civilian"
-        url: /capabilities/federal-civilian
+        url: /customers/federal-civilian
       - name: "Commercial"
-        url: /capabilities/commercial
+        url: /customers/commercial
   - name: Contracts
     url: /contracts
     weight: 4
@@ -37,6 +37,9 @@ main:
   - name: Blog
     url: /blog
     weight: 6
+  - name: Careers
+    url: /careers
+    weight: 7    
 
 footer_primary:
   - name: Home

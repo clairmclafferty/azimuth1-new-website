@@ -2,7 +2,7 @@
 layout: home
 permalink: "/"
 title: "Daybreak - Mission Focused - "
-description: "Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
+description: "Daybreak - Mission Focused"
 header_transparent: false
 meta_title: Daybreak - Mission Focused
 
@@ -54,12 +54,11 @@ intro:
   align: left
   image: "https://source.unsplash.com/GpNOhig3LSU/640x800"
   heading: "About Us"
-  sub_heading: "Azimuth1 is a fast moving team of data analytics and computer science experts on a mission to bring specialty data analysis applications to environmental, public safety, and national security challenges. Our products are used by Fortune 500 companies, government agencies, and emergency first responders to make better decisions faster.
-  <br/>  <br/> 
-  The tools of our trade are typically statistical learning methods, geospatial data modeling and GIS, and interactive data visualization on the web leveraging open source software throughout our process.
-    <br/>  <br/> 
+  sub_heading: "Daybreak’s sole mission is to support the federal agencies that are safeguarding our nation’s security, safety and health, by bringing dedicated, highly experienced experts in data analytics, artificial intelligence and other advanced information technology, and intelligence analysis. Our team brings experience in national security federal agencies and their operating environments together with leading-edge technologies and techniques. We attract the best employees, create the best place for them to work, empower and engage them to succeed, and share their passion for the customer’s mission.</br>
 
-  Our philosophy is that we should spend our efforts customizing tools and methods to suit particular industries rather than build generic tools to try to suit everyone. We recognize that each industry has its own terminology, practices, assumptions, and way of approaching a problem. In order to solve a problem it helps to engage fully with those that are knee deep in it, so we jump in with our customers and try to build a solution that fits that industry rather than build one solution for everyone. We believe your industry deserves its own tailored fit."
+Daybreak is a fast moving team of data analytics and computer science experts on a mission to bring specialty data analysis applications to environmental, public safety, and national security challenges. Our products are used by Fortune 500 companies, government agencies, and emergency first responders to make better decisions faster.</br>
+
+The tools of our trade are typically statistical learning methods, geospatial data modeling and GIS, and interactive data visualization on the web leveraging open source software throughout our process."
   features:
     enabled: false
     list:

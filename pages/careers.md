@@ -25,9 +25,9 @@ hero:
 
 ---
 
-
+<div class="container">
 We appreciate the benefits that can come from working from home like having no commute, fewer expenses for travel and business attire, plus the comfort and convenience. Being a remote organization does come with challenges - you need to be self motivated, eager to communicate with your team in multiple channels to keep everyone aligned and working together to achieve our goals. If you are a top performer in your field, and would like to create amazing new tech with others who speak your language, this may be the place for you.
-
+</div>
 <div class="container">
 <iframe class="responsive-iframe" src="https://daybreak-jobs.services.agileonboarding.com/jobs-embed" style="height: 1000px;"></iframe>
 </div>

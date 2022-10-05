@@ -34,12 +34,12 @@ main:
   - name: Products
     url: /products/
     weight: 5
-  - name: Blog
-    url: /blog
-    weight: 6
   - name: Careers
     url: /careers
-    weight: 7    
+    weight: 6
+  - name: Blog
+    url: /blog
+    weight: 7
 
 footer_primary:
   - name: Home
